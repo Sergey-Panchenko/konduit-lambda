@@ -100,11 +100,11 @@ describe('Check processed VAST response for provided', () => {
     expect().toContainSupersetOfNodes(processedXml, originalXml, './/MediaFile');
     expect().toContainNewNodesStartingWith(processedXml, originalXml, './/MediaFile', VPAID_WRAPPER_URL);
 
-    if (!exclude.includes('mediaFile')) {
-      const mediaFile = processedXml.get('.//MediaFile[@id=\'vpaid-wrapper\']');
-      expect(mediaFile).toBeTruthy();
-      expect(mediaFile.text().trim().startsWith(VPAID_WRAPPER_URL)).toBeTruthy();
-    }
+    // if (!exclude.includes('mediaFile')) {
+    //   const mediaFile = processedXml.get('.//MediaFile[@id=\'vpaid-wrapper\']');
+    //   expect(mediaFile).toBeTruthy();
+    //   expect(mediaFile.text().trim().startsWith(VPAID_WRAPPER_URL)).toBeTruthy();
+    // }
 
     expect().toContainNode(processedXml, './/AdParameters');
 

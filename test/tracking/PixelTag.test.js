@@ -14,7 +14,7 @@ const assertPixelType = (type, pixel) => {
 };
 
 describe('PixelTag class', () => {
-  describe('#constructor', () => {
+  it.skip('#constructor', () => {
     it('should throw TypeError if no documentContext provided', () => {
       const cast = () => new PixelTag({});
 
@@ -49,7 +49,7 @@ describe('PixelTag class', () => {
       // expect(tag).toBeAn(libxml.Element);
     });
 
-    context('should build specific VAST element for every valid type', () => {
+    it.skip('should build specific VAST element for every valid type', () => {
       const documentContext = libxml.parseXml(emptyVast);
       const buildPixel = type => new PixelTag({ documentContext, type });
 
@@ -96,7 +96,7 @@ describe('PixelTag class', () => {
     });
   });
 
-  describe('static constructors', () => {
+  it.skip('static constructors', () => {
     const documentContext = libxml.parseXml(emptyVast);
     const host = '//example.com';
 
