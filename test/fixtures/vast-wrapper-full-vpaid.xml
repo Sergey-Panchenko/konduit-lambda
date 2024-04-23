@@ -1,0 +1,47 @@
+<VAST version="3.0">
+  <Ad id="602834">
+    <Wrapper>
+      <AdSystem>Acudeo Compatible</AdSystem>
+      <VASTAdTagURI>https://s3.us-east-2.amazonaws.com/kme-vast-sample/vast-issues/vast_wrapper_simple/vast-inline-vpaid-1.xml</VASTAdTagURI>
+      <Error>http://myErrorURL/wrapper/error</Error>
+      <Impression>http://myTrackingURL/wrapper/impression11</Impression>
+      <Impression><![CDATA[http://myTrackingURL/wrapper/impression12]]></Impression>
+      <Impression><![CDATA[http://myTrackingURL/wrapper/impression13]]></Impression>
+      <Creatives>
+        <Creative AdID="602833">
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="creativeView">http://myTrackingURL/wrapper2/creativeView</Tracking>
+              <Tracking event="start">http://myTrackingURL/wrapper2/start</Tracking>
+              <Tracking event="midpoint">http://myTrackingURL/wrapper2/midpoint</Tracking>
+              <Tracking event="firstQuartile">http://myTrackingURL/wrapper2/firstQuartile</Tracking>
+              <Tracking event="thirdQuartile">http://myTrackingURL/wrapper2/thirdQuartile</Tracking>
+              <Tracking event="complete">http://myTrackingURL/wrapper2/complete</Tracking>
+              <Tracking event="mute">http://myTrackingURL/wrapper2/mute</Tracking>
+              <Tracking event="unmute">http://myTrackingURL/wrapper2/unmute</Tracking>
+              <Tracking event="pause">http://myTrackingURL/wrapper2/pause</Tracking>
+              <Tracking event="resume">http://myTrackingURL/wrapper2/resume</Tracking>
+              <Tracking event="fullscreen">http://myTrackingURL/wrapper2/fullscreen</Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickTracking>http://myTrackingURL/wrapper2/click1</ClickTracking>
+              <ClickTracking>http://myTrackingURL/wrapper2/click2</ClickTracking>
+              <ClickTracking>http://myTrackingURL/wrapper2/click3</ClickTracking>
+              <CustomClick>http://myTrackingURL/wrapper2/custom_click1</CustomClick>
+              <CustomClick>http://myTrackingURL/wrapper2/custom_click2</CustomClick>
+              <CustomClick>http://myTrackingURL/wrapper2/custom_click3</CustomClick>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+      <Extensions>
+          <Extension type="OneSource creative 2">
+              <CreativeId><![CDATA[398894]]></CreativeId>
+          </Extension>
+          <Extension type="one_video_custom_tracking_beacons_2">
+              <Beacon type="clickThru"><![CDATA[http://log.adaptv.advertising.com/log?3a=click&d3={a.cPos}&25=398894&5=740294&14=974829&11d=3179538519456550&65=preroll&6a=-2&6b=-2&91=ONLINE_VIDEO&14d=603&optout=0&3=-2&5c=aolemea&5b=5831&18=113575&2e=www.aol.co.uk%2Fmoney%2F2017%2F08%2F09%2Fmillionaire-gives-single-mum-a-120-000-flat-for-free%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Csec1_lnk2&2f=aol.co.uk&30=aol.co.uk&31=3&32=0&fd=31526&83=597bad4e92fdde38085cfa63&82=39060&80=7931429023339854138&f8=VA158cc9b2-760a-11e7-aad1-0e0e11b5671b&42=false&8f=640&41=360&21=transId%3Dec008d8d-6d16-4b5e-860f-0df8be4e4a9f%2CstudioId%3D587654a5c7480e3e66288ce4%2Cdomain%3Dwww.aol.co.uk%2Csect%3D%2C%2Cpid%3D57d1748488d2ff276604589c%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Duk.aolcomfin&77=708081405&67={playerRev}&d6=aa968eaf-4843-4a68-ac0e-427de84ad00d&bf=0&74=ah&d5=1&d8=ip-10-49-139-237&ae=1&8e=<a.viewable>&f0=1&68=3&d7=O2&c4=0&91=ONLINE_VIDEO&45=2.99.141.99&ee=Windows+10&b5=<a.active>&143=0&144=1&145=100&146=100&147=100&148=0&14b=-100.0000&14c=-100.0000&152=-100.0000&153=-100.0000&115=3&120=0&100={adSeq}&112=0&33=71359051&f6=iCSArrpvL%2FM_&12e=-1.0000&12f=-1.0000&130=-1.0000&131=-1.0000&15b=-1&a.cv=1&rUrl=]]></Beacon>
+          </Extension>
+        </Extensions>
+      </Wrapper>
+  </Ad>
+</VAST>

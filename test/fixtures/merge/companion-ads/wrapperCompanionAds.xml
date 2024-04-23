@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VAST version="2.0">
+  <Ad id="wrapper0.xml">
+    <Wrapper>
+      <AdSystem>Test</AdSystem>
+      <VASTAdTagURI>
+        <![CDATA[
+          ./wrapper_0.xml
+        ]]>
+      </VASTAdTagURI>
+      <Error>
+        https://VAST/Ad/wrapper0.xml/Wrapper/Creatives/Creative/Error
+      </Error>
+      <Impression>
+        https://VAST/Ad/wrapper0.xml/Wrapper/Creatives/Creative/Impression
+      </Impression>
+      <Creatives>
+        <Creative AdID="5167945">
+          <CompanionAds>
+            <Companion width="300" height="250">
+
+              <StaticResource creativeType="image/jpeg">
+                <![CDATA[/example/files/300x250_banner1.jpg]]>
+              </StaticResource>
+              <TrackingEvents>
+                <Tracking event="creativeView">http://myTrackingURL/wrapper/firstCompanionCreativeView</Tracking>
+              </TrackingEvents>
+              <CompanionClickThrough>http://www.myTrackingURL.com</CompanionClickThrough>
+            </Companion>
+            <Companion width="728" height="90">
+
+              <StaticResource creativeType="image/jpeg">/example/files/728x90_banner1.jpg</StaticResource>
+              <CompanionClickThrough>http://www.myTrackingURL.com</CompanionClickThrough>
+            </Companion>
+          </CompanionAds>
+        </Creative>
+        <Creative AdID="5167942">
+          <CompanionAds>
+            <Companion height="0" width="0">
+              <TrackingEvents>
+                <Tracking event="creativeView"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=vv&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+              </TrackingEvents>
+              <CompanionClickThrough><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_uuid=caea2692-c41a-4c50-a668-04d7dab85bed&mt_cmid=1&mt_aid=4762260105546904830&event=companionClick&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></CompanionClickThrough>
+            </Companion>
+          </CompanionAds>
+        </Creative>
+      </Creatives>
+      <Extensions>
+        <Extension type="wrapper_0_Extension">
+          <ParamA>wrapper_0_Extension/ValueA</ParamA>
+          <ParamB>wrapper_0_Extension/ValueB</ParamB>
+          <ParamC>wrapper_0_Extension/ValueC</ParamC>
+        </Extension>
+      </Extensions>
+    </Wrapper>
+  </Ad>
+</VAST>

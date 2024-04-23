@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast_2.0.1-creativeView.xsd" version="2.0">
+    <Ad id="brainstudio">
+        <InLine>
+            <AdSystem>BrainStudio</AdSystem>
+            <AdTitle><![CDATA[BrainStudio ads for user 1228, video 34f8e4e6-e83c-46da-8bf6-a37ae9ed5134]]></AdTitle>
+            <Error><![CDATA[https://ac.brainient.com/track?event=ZXJyb3I=&video_id=34f8e4e6-e83c-46da-8bf6-a37ae9ed5134&user_id=1228&platform=default&tzone=&random=[CACHEBUSTING]&skip=error&error_code=[ERRORCODE]]]></Error>
+            <Impression id="NEW"><![CDATA[https://ac.brainient.com/track?event=aW1wcmVzc2lvbg==&video_id=34f8e4e6-e83c-46da-8bf6-a37ae9ed5134&user_id=1228&platform=default&tzone=&random=[CACHEBUSTING]&skip=impression]]></Impression>
+
+            <Creatives>
+                <Creative sequence="1">
+                    <Linear>
+                        <Duration>00:00:30</Duration>
+                        <MediaFiles>
+                          <MediaFile delivery="progressive" width="640" height="360" type="application/x-shockwave-flash" apiFramework="VPAID">
+                            <![CDATA[http://cdn-sys.brainient.com/flash/v6/buttonv7.0.2.swf?video_id=34f8e4e6-e83c-46da-8bf6-a37ae9ed5134&user_id=1228&tzone=&settings=json&settingsPath=http://cdn-tags.brainient.com/1228/34f8e4e6-e83c-46da-8bf6-a37ae9ed5134/config.json]]>
+                          </MediaFile>
+                          <MediaFile delivery="progressive" width="640" height="360" type="application/x-shockwave-flash" apiFramework="VPAID">
+                            <![CDATA[http://second.mediafile.example.com/for_test]]>
+                          </MediaFile>
+                        </MediaFiles>
+                                            </Linear>
+                </Creative>
+
+                            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>

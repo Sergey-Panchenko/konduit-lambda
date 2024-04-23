@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VAST version="2.0">
+  <Ad id="wrapper0.xml">
+    <Wrapper>
+      <AdSystem>Test</AdSystem>
+      <VASTAdTagURI>
+        <![CDATA[
+          ./wrapper_0.xml
+        ]]>
+      </VASTAdTagURI>
+      <Error>
+        https://VAST/Ad/wrapper0.xml/Wrapper/Creatives/Creative/Error
+      </Error>
+      <Impression>
+        https://VAST/Ad/wrapper0.xml/Wrapper/Creatives/Creative/Impression
+      </Impression>
+      <Creatives>
+        <Creative id="1">
+          <Linear>
+            <Duration>00:00:00</Duration>
+            <TrackingEvents>
+              <Tracking event="start">
+                https://VAST/Ad/wrapper0.xml/Wrapper/Creatives/Creative/1/Linear/TrackingEvents/Tracking/start
+              </Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickTracking>
+                https://VAST/Ad/wrapper0.xml/Wrapper/Creatives/Creative/1/Linear/ClickTracking
+              </ClickTracking>
+            </VideoClicks>
+            <AdParameters>
+              <![CDATA[param=wrapper0_param]]>
+            </AdParameters>
+            <Attempt>
+              wrapper0_Attempt
+            </Attempt>
+          </Linear>
+        </Creative>
+      </Creatives>
+      <Extensions>
+        <Extension type="wrapper_0_Extension">
+          <ParamA>wrapper_0_Extension/ValueA</ParamA>
+          <ParamB>wrapper_0_Extension/ValueB</ParamB>
+          <ParamC>wrapper_0_Extension/ValueC</ParamC>
+        </Extension>
+      </Extensions>
+    </Wrapper>
+  </Ad>
+</VAST>

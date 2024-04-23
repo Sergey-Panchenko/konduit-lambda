@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VAST version="2.0">
+  <Ad id="wrapper0.xml">
+    <Wrapper>
+      <AdSystem>Test</AdSystem>
+      <VASTAdTagURI>
+        <![CDATA[
+          ./wrapper_0.xml
+        ]]>
+      </VASTAdTagURI>
+      <Error>
+        https://VAST/Ad/wrapper0.xml/Wrapper/Creatives/Creative/Error
+      </Error>
+      <Impression>
+        https://VAST/Ad/wrapper0.xml/Wrapper/Creatives/Creative/Impression
+      </Impression>
+      <Creative AdID="5167942">
+        <NonLinearAds>
+          <NonLinear>
+            <NonLinearClickTracking>
+              <![CDATA[
+                https://tracking.local/pixel.gif
+              ]]>
+            </NonLinearClickTracking>
+          </NonLinear>
+          <TrackingEvents>
+            <Tracking event="resume"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=resume&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+            <Tracking event="acceptInvitation"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=acceptInvitation&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+            <Tracking event="collapse"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=collapse&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+            <Tracking event="thirdQuartile"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=q3&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+            <Tracking event="close"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=close&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+            <Tracking event="creativeView"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=vv&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+            <Tracking event="fullscreen"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=fullscreen&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+            <Tracking event="complete"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=q4&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+            <Tracking event="start"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=vst&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+            <Tracking event="rewind"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=rewind&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+            <Tracking event="unmute"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=unmute&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+            <Tracking event="expand"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=expand&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+            <Tracking event="mute"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=mute&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+            <Tracking event="midpoint"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=q2&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+            <Tracking event="pause"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=pause&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+            <Tracking event="firstQuartile"><![CDATA[https://tracking.local/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=q1&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+          </TrackingEvents>
+        </NonLinearAds>
+      </Creative>
+      <Extensions>
+        <Extension type="wrapper_0_Extension">
+          <ParamA>wrapper_0_Extension/ValueA</ParamA>
+          <ParamB>wrapper_0_Extension/ValueB</ParamB>
+          <ParamC>wrapper_0_Extension/ValueC</ParamC>
+        </Extension>
+      </Extensions>
+    </Wrapper>
+  </Ad>
+</VAST>

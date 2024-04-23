@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"
+           attributeFormDefault="unqualified">
+  <xs:element name="VAST">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Error" maxOccurs="1" minOccurs="0"></xs:element>
+        <xs:element name="Ad" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence minOccurs="0">
+              <xs:choice maxOccurs="1" minOccurs="1">
+                <xs:element name="InLine" maxOccurs="1" minOccurs="0" type="Any_type"/>
+                <xs:element name="Wrapper" maxOccurs="1" minOccurs="0" type="Any_type"/>
+              </xs:choice>
+            </xs:sequence>
+            <xs:anyAttribute processContents="skip"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Extensions" minOccurs="0" maxOccurs="unbounded" type="Any_type"/>
+      </xs:sequence>
+      <xs:anyAttribute processContents="skip"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="Any_type">
+    <xs:sequence minOccurs="0">
+      <xs:any processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:anyAttribute processContents="skip"/>
+  </xs:complexType>
+</xs:schema>

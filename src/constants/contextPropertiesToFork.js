@@ -1,0 +1,40 @@
+'use strict';
+
+// TODO: consider using Set instead
+const contextPropertiesToFork = {
+  query: true,
+  allowLogs: true,
+  browserName: true,
+  browserVersion: true,
+  osName: true,
+  deviceType: true,
+  clientId: true,
+  cookies: true,
+  headers: true,
+  ignoreVpaidCache: true,
+  initialVastUrl: true,
+  ip: true,
+  isAdPod: true,
+  isOttRequest: true,
+  isSecureRequest: true,
+  kid: true,
+  konduitAbTesting: true,
+  konduitAbType: true,
+  lastResponseHeaders: true,
+  originalUrl: true,
+  protocol: true,
+  requestId: true,
+  startTime: true,
+  tracking: true,
+  adServerUserIds: true,
+  unwrapOperationsCount: true,
+  vastUrl: true,
+  viewerCountry: true,
+  options: true,
+  validDataUrl: true,
+  vastVersionsChain: true,
+  clientSpecificLogFields: true,
+  isAdVerificationAdded: true,
+};
+
+module.exports = contextPropertiesToFork;

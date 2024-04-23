@@ -1,0 +1,110 @@
+<VAST version="3.0">
+  <Error>http://example.com</Error>
+  <Ad sequence="1">
+    <InLine>
+      <AdSystem>Ad System</AdSystem>
+      <AdTitle>test 002</AdTitle>
+      <Description>One VPAID flash in one Creative Linear. All required elements and attributes only
+</Description>
+      <Pricing model="CPM" currency="USD">123</Pricing>
+      <Impression>
+        <![CDATA[ http://ad.server.com/impression/dot.gif ]]>
+      </Impression>
+      <Creatives>
+        <Creative>
+          <CreativeExtensions>
+            <CreativeExtension>hello</CreativeExtension>
+          </CreativeExtensions>
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <TrackingEvents>
+              <Tracking event="creativeView">http://myTrackingURL/creativeView</Tracking>
+              <Tracking event="start">http://myTrackingURL/start</Tracking>
+              <Tracking event="midpoint">http://myTrackingURL/midpoint</Tracking>
+              <Tracking event="firstQuartile">http://myTrackingURL/firstQuartile</Tracking>
+              <Tracking event="thirdQuartile">http://myTrackingURL/thirdQuartile</Tracking>
+              <Tracking event="complete">http://myTrackingURL/complete</Tracking>
+              <Tracking event="fullscreen">http://myTrackingURL/fullscreen</Tracking>
+              <Tracking event="exitFullscreen">http://myTrackingURL/exitFullscreen</Tracking>
+              <Tracking event="acceptInvitationLinear">http://myTrackingURL/acceptInvitationLinear</Tracking>
+              <Tracking event="closeLinear">http://myTrackingURL/closeLinear</Tracking>
+              <Tracking event="skip">http://myTrackingURL/skip</Tracking>
+            </TrackingEvents>
+            <AdParameters>
+              <![CDATA[
+{"videos":[ {"url":"//s3.amazonaws.com/demo.jwplayer.com/player-demos/assets/preroll.mp4","mimetype":"video/mp4"}], "attributes": { "desiredBitrate" : 256, "duration" : 30, "expanded" : false, "height" : 0, "icons" : "", "linear" : true, "remainingTime" : 30, "skippableState" : true, "viewMode" : "normal", "width" : 0, "volume" : 1.0 } }
+]]>
+            </AdParameters>
+            <VideoClicks>
+              <ClickThrough>http://www.example.com</ClickThrough>
+              <ClickTracking>http://myTrackingURL/click1</ClickTracking>
+              <ClickTracking>http://myTrackingURL/click2</ClickTracking>
+              <CustomClick>http://myTrackingURL/custom_click1</CustomClick>
+              <CustomClick>http://myTrackingURL/custom_click2</CustomClick>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile apiFramework="VPAID" delivery="progressive" height="360" type="application/javascript" width="640">
+                <![CDATA[
+https://s3.us-east-2.amazonaws.com/kme-vast-sample/media/vpaid-2-player-test.js
+]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+  <Ad sequence="2">
+    <InLine>
+      <AdSystem>Ad System</AdSystem>
+      <AdTitle>test 002</AdTitle>
+      <Description>One VPAID flash in one Creative Linear. All required elements and attributes only
+</Description>
+      <Pricing model="CPM" currency="USD">12</Pricing>
+      <Impression>
+        <![CDATA[ http://ad.server.com/impression/dot.gif ]]>
+      </Impression>
+      <Creatives>
+        <Creative>
+          <CreativeExtensions>
+            <CreativeExtension>hello</CreativeExtension>
+          </CreativeExtensions>
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <TrackingEvents>
+              <Tracking event="creativeView">http://myTrackingURL/creativeView</Tracking>
+              <Tracking event="start">http://myTrackingURL/start</Tracking>
+              <Tracking event="midpoint">http://myTrackingURL/midpoint</Tracking>
+              <Tracking event="firstQuartile">http://myTrackingURL/firstQuartile</Tracking>
+              <Tracking event="thirdQuartile">http://myTrackingURL/thirdQuartile</Tracking>
+              <Tracking event="complete">http://myTrackingURL/complete</Tracking>
+              <Tracking event="fullscreen">http://myTrackingURL/fullscreen</Tracking>
+              <Tracking event="acceptInvitationLinear">http://myTrackingURL/acceptInvitationLinear</Tracking>
+              <Tracking event="closeLinear">http://myTrackingURL/closeLinear</Tracking>
+              <Tracking event="skip">http://myTrackingURL/skip</Tracking>
+            </TrackingEvents>
+            <AdParameters>
+              <![CDATA[
+{"videos":[ {"url":"//s3.amazonaws.com/demo.jwplayer.com/player-demos/assets/preroll.mp4","mimetype":"video/mp4"}], "attributes": { "desiredBitrate" : 256, "duration" : 30, "expanded" : false, "height" : 0, "icons" : "", "linear" : true, "remainingTime" : 30, "skippableState" : true, "viewMode" : "normal", "width" : 0, "volume" : 1.0 } }
+]]>
+            </AdParameters>
+            <VideoClicks>
+              <ClickThrough>http://www.example.com</ClickThrough>
+              <ClickTracking>http://myTrackingURL/click1</ClickTracking>
+              <ClickTracking>http://myTrackingURL/click2</ClickTracking>
+              <CustomClick>http://myTrackingURL/custom_click1</CustomClick>
+              <CustomClick>http://myTrackingURL/custom_click2</CustomClick>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile apiFramework="VPAID" delivery="progressive" height="360" type="application/javascript" width="640">
+                <![CDATA[
+https://s3.us-east-2.amazonaws.com/kme-vast-sample/media/vpaid-2-player-test.js
+]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>

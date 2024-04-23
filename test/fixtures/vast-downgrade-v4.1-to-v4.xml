@@ -1,0 +1,120 @@
+<VAST version="4.1" xmlns="http://www.iab.com/VAST" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <Ad conditionalAd="false" id="20001" sequence="1" type="video">
+    <InLine>
+      <AdSystem version="4.1">iabtechlab</AdSystem>
+      <Error>
+        <![CDATA[ https://example.com/error ]]>
+      </Error>
+      <Impression id="Impression-ID">
+        <![CDATA[ https://example.com/track/impression ]]>
+      </Impression>
+      <Pricing currency="USD" model="cpm">
+        <![CDATA[ 25.00 ]]>
+      </Pricing>
+      <AdServingId>ADID_INSIMPLETEST_ABC123</AdServingId>
+      <AdTitle>Inline Simple Ad</AdTitle>
+      <Expires>3600</Expires>
+      <AdVerifications>
+        <Verification>
+          <JavaScriptResource>
+            <![CDATA[https://verificationcompany1.com/verification_script1.js]]>
+          </JavaScriptResource>
+          <TrackingEvents>
+            <Tracking event="notUsed">
+              <![CDATA[https://verificationcompany1.com/track/notUsed]]>
+            </Tracking>
+          </TrackingEvents>
+        </Verification>
+        <Verification>
+          <JavaScriptResource>
+            <![CDATA[https://verificationcompany.com/untrusted.js]]>
+          </JavaScriptResource>
+          <VerificationParameters>
+            <![CDATA[{"hello":"world"}]]>
+          </VerificationParameters>
+        </Verification>
+        <Verification>
+          <JavaScriptResource apiFramework="omid" browserOptional="true">
+            <![CDATA[https://verificationvendor.com/omid.js]]>
+          </JavaScriptResource>
+        </Verification>
+      </AdVerifications>
+      <Advertiser>IAB Sample Company</Advertiser>
+      <Category authority="https://www.iabtechlab.com/categoryauthority">AD CONTENT description category</Category>
+      <Creatives>
+        <Creative adId="2447226" id="5480" sequence="1">
+          <UniversalAdId idRegistry="Ad-ID">8465</UniversalAdId>
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="start">
+                <![CDATA[ https://example.com/tracking/start ]]>
+              </Tracking>
+              <Tracking event="progress" offset="00:00:10">
+                <![CDATA[ http://example.com/tracking/progress-10 ]]>
+              </Tracking>
+              <Tracking event="firstQuartile">
+                <![CDATA[ https://example.com/tracking/firstQuartile ]]>
+              </Tracking>
+              <Tracking event="midpoint">
+                <![CDATA[ https://example.com/tracking/midpoint ]]>
+              </Tracking>
+              <Tracking event="thirdQuartile">
+                <![CDATA[ https://example.com/tracking/thirdQuartile ]]>
+              </Tracking>
+              <Tracking event="complete">
+                <![CDATA[ https://example.com/tracking/complete ]]>
+              </Tracking>
+              <Tracking event="notUsed">
+                <![CDATA[ https://example.com/tracking/notUsed ]]>
+              </Tracking>
+              <Tracking event="loaded">
+                <![CDATA[ https://example.com/tracking/loaded ]]>
+              </Tracking>
+              <Tracking event="closeLinear">
+                <![CDATA[ https://example.com/tracking/closeLinear ]]>
+              </Tracking>
+            </TrackingEvents>
+            <Duration>00:00:16</Duration>
+            <MediaFiles>
+              <ClosedCaptionFiles>
+                <ClosedCaptionFile type="text/srt"  language="en">
+                  <![CDATA[https://mycdn.example.com/creatives/creative001.srt]]>
+                </ClosedCaptionFile>
+                <ClosedCaptionFile type="text/srt" language="fr">
+                  <![CDATA[https://mycdn.example.com/creatives/creative001-1.srt]]>
+                </ClosedCaptionFile>
+                <ClosedCaptionFile type="text/vtt"   language="zh-TW">
+                  <![CDATA[https://mycdn.example.com/creatives/creative001.vtt]]>
+                </ClosedCaptionFile>
+                <ClosedCaptionFile type="application/ttml+xml"  language="zh-CH">
+                  <![CDATA[https://mycdn.example.com/creatives/creative001.ttml]]>
+                </ClosedCaptionFile>
+              </ClosedCaptionFiles>
+              <MediaFile bitrate="2000" codec="0" delivery="progressive" height="720" id="5241" maintainAspectRatio="1" maxBitrate="2500" minBitrate="1500" scalable="1" type="video/mp4" width="1280">
+                <![CDATA[
+https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro.mp4
+]]>
+              </MediaFile>
+              <MediaFile bitrate="1000" codec="0" delivery="progressive" height="480" id="5244" maintainAspectRatio="1" maxBitrate="1500" minBitrate="700" scalable="1" type="video/mp4" width="854">
+                <![CDATA[
+https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro-mid-resolution.mp4
+]]>
+              </MediaFile>
+              <MediaFile bitrate="600" codec="0" delivery="progressive" height="360" id="5246" maintainAspectRatio="1" maxBitrate="700" minBitrate="500" scalable="1" type="video/mp4" width="640">
+                <![CDATA[
+https://iab-publicfiles.s3.amazonaws.com/vast/VAST-4.0-Short-Intro-low-resolution.mp4
+]]>
+              </MediaFile>
+            </MediaFiles>
+            <VideoClicks>
+              <ClickThrough id="blog">
+                <![CDATA[ https://iabtechlab.com ]]>
+              </ClickThrough>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+  <Ad type="audio"></Ad>
+</VAST>

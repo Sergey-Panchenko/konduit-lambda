@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast_2.0.1-creativeView.xsd" version="2.0">
+    <Ad id="brainstudio">
+        <Error><![CDATA[https://ac.brainient.com/track?event=ZXJyb3I=&video_id=34f8e4e6-e83c-46da-8bf6-a37ae9ed5134&user_id=1228&platform=default&tzone=&random=[CACHEBUSTING]&skip=error&error_code=[ERRORCODE]]]></Error>
+        <InLine>
+            <AdSystem>BrainStudio</AdSystem>
+            <AdTitle><![CDATA[BrainStudio ads for user 1228, video 34f8e4e6-e83c-46da-8bf6-a37ae9ed5134]]></AdTitle>
+            <Impression id="NEW"><![CDATA[https://ac.brainient.com/track?event=aW1wcmVzc2lvbg==&video_id=34f8e4e6-e83c-46da-8bf6-a37ae9ed5134&user_id=1228&platform=default&tzone=&random=[CACHEBUSTING]&skip=impression]]></Impression>
+        </InLine>
+    </Ad>
+</VAST>

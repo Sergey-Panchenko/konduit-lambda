@@ -1,0 +1,71 @@
+<VAST xsi:noNamespaceSchemaLocation="vast.xsd" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Ad id="5167942">
+        <Wrapper>
+            <AdSystem version="6.10.1-6.15.0">MediaMath T1 VADS</AdSystem>
+            <VASTAdTagURI><![CDATA[https://rtr.innovid.com/r1.5a3acff682a150.93111929;cb=1516269566]]></VASTAdTagURI>
+            <Error><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=err&mt_id=5167942&error=[ERRORCODE]&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Error>
+            <Impression><![CDATA[https://cdn.doubleverify.com/dvtp_src.js?ctx=3397726&cmp=3506043&sid=pp04&plc=35060431&advid=3398311&adsrv=27&btreg=&btadsrv=&tagtype=&dvtagver=6.1.src&DVP_PROG_REP=1&DVP_DV_TT=1&DVP_PP_ID=4&DVP_PP_BUNDLE_ID=[AD_ATTR.app_id]&DVPX_PP_IMP_ID=4762260105546904830&DVPX_PP_UID=[MM_UUID_B64WS]&DVP_MM_1=197144&DVP_MM_2=449652&DVP_MM_3=2901764&DVP_MM_4=5167942&DVP_MM_5=atv&DVP_MM_6=[BID_ATTR.exchange_id]&DVP_MM_7=3679&DVP_MM_8=1457623850&turl=[BID_ATTR.page_url]&DVPX_PP_AUCTION_UA=[BID_ATTR.user_agent]]]></Impression>
+            <Impression><![CDATA[https://tags.mathtag.com/notify/img?count=1&ip=98.151.143.210&cmp=449652&optout=0&ua=Mozilla%2F5.0+%28Windows+NT+10.0%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F43.0.2357.130+AOL%2F9.8+AOLBuild%2F4346.2024.US+Safari%2F537.36&uuid=fcd15a14-b525-4800-85fb-d7b2482c512a&price=9.0100&nodeid=1288&site=www.aol.com&lmt=0&cvid=1&skippable=0&buyerCreativeId=5167942&id=5aW95q2jLzE0LyAvWm1Oa01UVmhNVFF0WWpVeU5TMDBPREF3TFRnMVptSXRaRGRpTWpRNE1tTTFNVEpoLzQ3NjIyNjAxMDU1NDY5MDQ4MzAvNTE2Nzk0Mi8yOTAxNzY0LzMxL3M2Mi13S3c1N2RDaWQtdHZ4dUdxZGlVN2czdlloTURTZHFZcWQtcGJkUGcvMS8zMS8xNTE0NTkwOTQ5LzEvNTkzOTMyLzE2NTQwOTk5MjIvMTk3MTQ0LzQ0OTY1Mi8yLzAvMC9abU5rTVRWaE1UUXRZalV5TlMwME9EQXdMVGcxWm1JdFpEZGlNalE0TW1NMU1USmgvMC8wLzAvMC8wLzQ3NjIyNjAxMDU1NDY5MDQ4MzAvcGFvLw%2Fml7AKg54BYE2VFKQwQ4qsk-R3cE&cid=5167942&pid=3679&siteid=1457623850&bp=ba_aaaaaa&exch=atv&cdsp=false&cacheBuster=1516269566&auctionid=4762260105546904830&lat_long=20.700000%2C-156.440000&mm_openrtb=1&protocol_version=1&group=pao&sid=2901764&prot=https%3A%2F%2F]]></Impression>
+            <Impression><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=imp&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Impression>
+            <Creatives>
+                <Creative AdID="5167942">
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="resume"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=resume&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="acceptInvitation"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=acceptInvitation&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="collapse"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=collapse&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=q3&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="close"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=close&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="creativeView"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=vv&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="fullscreen"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=fullscreen&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="complete"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=q4&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="start"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=vst&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="rewind"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=rewind&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="unmute"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=unmute&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="expand"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=expand&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="mute"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=mute&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=q2&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="pause"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=pause&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=q1&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickTracking><![CDATA[https://pixel.mathtag.com/click/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=click&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+              <Creative AdID="5167942">
+                    <CompanionAds>
+                        <Companion height="0" width="0">
+                            <TrackingEvents>
+                                <Tracking event="creativeView"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=vv&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            </TrackingEvents>
+                            <CompanionClickThrough><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_uuid=caea2692-c41a-4c50-a668-04d7dab85bed&mt_cmid=1&mt_aid=4762260105546904830&event=companionClick&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></CompanionClickThrough>
+                        </Companion>
+                    </CompanionAds>
+                </Creative>
+                <Creative AdID="5167942">
+                    <NonLinearAds>
+                        <TrackingEvents>
+                            <Tracking event="resume"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=resume&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="acceptInvitation"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=acceptInvitation&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="collapse"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=collapse&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=q3&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="close"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=close&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="creativeView"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=vv&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="fullscreen"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=fullscreen&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="complete"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=q4&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="start"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=vst&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="rewind"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=rewind&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="unmute"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=unmute&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="expand"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=expand&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="mute"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=mute&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=q2&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="pause"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=pause&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[https://pixel.mathtag.com/video/img?cb=8042295091186926592&mt_aid=4762260105546904830&event=q1&mt_id=5167942&mt_exid=atv&mt_adid=197144&mt_stid=2901764]]></Tracking>
+                        </TrackingEvents>
+                    </NonLinearAds>
+                </Creative>
+            </Creatives>
+        </Wrapper>
+    </Ad>
+</VAST>

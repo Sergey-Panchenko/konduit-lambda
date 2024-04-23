@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VAST version="2.0">
+  <Ad id="inline.xml">
+    <InLine>
+      <AdSystem>Test</AdSystem>
+      <AdTitle>
+        Test Title
+      </AdTitle>
+      <Impression>
+        https://VAST/Ad/inline.xml/Wrapper/Creatives/Creative/Impression
+      </Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:15</Duration>
+            <VideoClicks>
+              <ClickThrough>
+                https://VAST/Ad/inline.xml/Wrapper/Creatives/Creative/1/Linear/ClickThrough
+              </ClickThrough>
+              <ClickTracking>
+                https://VAST/Ad/inline.xml/Wrapper/Creatives/Creative/1/Linear/ClickTracking
+              </ClickTracking>
+              <CustomClick>
+                https://VAST/Ad/inline.xml/Wrapper/Creatives/Creative/1/Linear/CustomClick
+              </CustomClick>
+              <CustomClick>
+                https://VAST/Ad/inline.xml/Wrapper/Creatives/Creative/1/Linear/CustomClick1
+              </CustomClick>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile delivery="progressive" width="16" height="9" type="application/javascript"
+                         apiFramework="VPAID">
+                https://VAST/Ad/inline.xml/Wrapper/Creatives/Creative/Linear/MediaFiles/MediaFile
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>

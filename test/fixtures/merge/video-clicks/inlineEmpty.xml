@@ -1,0 +1,41 @@
+<VAST version="3.0">
+  <Ad>
+    <InLine>
+      <AdSystem>77-001255675501</AdSystem>
+      <AdTitle>test 015</AdTitle>
+      <Description>One VPAID js in one Creative Linear</Description>
+      <Impression><![CDATA[ http://myTrackingURL/inLine/impression ]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:30</Duration>
+            <AdParameters><![CDATA[{"videos":[ {"url":"//s3.amazonaws.com/demo.jwplayer.com/player-demos/assets/preroll.mp4","mimetype":"video/mp4"}], "attributes": { "desiredBitrate" : 256, "duration" : 30, "expanded" : false, "height" : 0, "icons" : "", "linear" : true, "remainingTime" : 30, "skippableState" : true, "viewMode" : "normal", "width" : 0, "volume" : 1.0 } }]]></AdParameters>
+            <MediaFiles>
+              <MediaFile delivery="progressive" width="640" height="360" apiFramework="VPAID" type="application/javascript">
+                <![CDATA[
+                https://s3.us-east-2.amazonaws.com/kme-vast-sample/media/vpaid-2-player-test.js
+                ]]>
+              </MediaFile>
+            </MediaFiles>
+            <TrackingEvents>
+              <Tracking event="creativeView"><![CDATA[http://myTrackingURL/inLine/linear/tracking/creativeView]]></Tracking>
+              <Tracking event="start"><![CDATA[http://myTrackingURL/inLine/linear/tracking/start]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[http://myTrackingURL/inLine/linear/tracking/firstQuartile1]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[http://myTrackingURL/inLine/linear/tracking/firstQuartile2]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[http://myTrackingURL/inLine/linear/tracking/midpoint]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[http://myTrackingURL/inLine/linear/tracking/thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[http://myTrackingURL/inLine/linear/tracking/complete]]></Tracking>
+              <Tracking event="mute">	<![CDATA[ http://myTrackingURL/inLine/linear/tracking/mute ]]></Tracking>
+              <Tracking event="unmute"><![CDATA[http://myTrackingURL/inLine/linear/tracking/unmute]]></Tracking>
+              <Tracking event="pause"><![CDATA[http://myTrackingURL/inLine/linear/tracking/pause]]></Tracking>
+              <Tracking event="rewind"><![CDATA[http://myTrackingURL/inLine/linear/tracking/rewind]]></Tracking>
+              <Tracking event="resume"><![CDATA[http://myTrackingURL/inLine/linear/tracking/resume]]></Tracking>
+              <Tracking event="skip"><![CDATA[ http://myTrackingURL/inLine/linear/tracking/skip ]]></Tracking>
+              <Tracking event="progress" offset="00:00:05"><![CDATA[http://myTrackingURL/inLine/linear/tracking/progress]]></Tracking>
+            </TrackingEvents>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>

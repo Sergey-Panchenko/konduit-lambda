@@ -1,0 +1,46 @@
+<VAST version="2.0">
+<Ad id="PM_VPAID_AD">
+<InLine>
+<AdSystem>PubMatic</AdSystem>
+<AdTitle>VPAID</AdTitle>
+<Impression/>
+<Creatives>
+<Creative>
+<Linear AdID="Linear">
+<Duration>00:01:30</Duration>
+<MediaFiles>
+<MediaFile apiFramework="VPAID" width="480" height="360" type="application/javascript" delivery="progressive">
+<![CDATA[
+http://vpaid.pubmatic.com/ads/video/PMAdMgr.js?adtype=13&pubId=156108&siteId=181957&adId=948873&vadFmt=3&vapi=2&vminl=1&vmaxl=90&vpos=1&vh=364&vw=590&vfmt=1%202%203%204%205%206%207%208&kadpageurl=https%3A%2F%2Fwww.express.co.uk%2Flife-style%2Flife%2F888748%2Fchristmas-tree-fire-safety-tips-advice
+]]>
+</MediaFile>
+<MediaFile apiFramework="VPAID" width="480" height="360" type="application/x-shockwave-flash" delivery="progressive">
+<![CDATA[
+http://vpaid.pubmatic.com/ads/video/PMAdMgr.swf?adtype=13&pubId=156108&siteId=181957&adId=948873&vadFmt=3&vapi=2&vminl=1&vmaxl=90&vpos=1&vh=364&vw=590&vfmt=1%202%203%204%205%206%207%208&kadpageurl=https%3A%2F%2Fwww.express.co.uk%2Flife-style%2Flife%2F888748%2Fchristmas-tree-fire-safety-tips-advice
+]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+<Creative AdID="NonLinear">
+<NonLinearAds>
+<NonLinear apiFramework="VPAID" width="480" height="360" minSuggestedDuration="00:01:30">
+<StaticResource creativeType="application/javascript">
+<![CDATA[
+http://vpaid.pubmatic.com/ads/video/PMAdMgr.js?adtype=13&pubId=156108&siteId=181957&adId=948873&vadFmt=3&vapi=2&vminl=1&vmaxl=90&vpos=1&vh=364&vw=590&vfmt=1%202%203%204%205%206%207%208&kadpageurl=https%3A%2F%2Fwww.express.co.uk%2Flife-style%2Flife%2F888748%2Fchristmas-tree-fire-safety-tips-advice
+]]>
+</StaticResource>
+</NonLinear>
+<NonLinear apiFramework="VPAID" width="480" height="360" minSuggestedDuration="00:01:30">
+<StaticResource creativeType="application/x-shockwave-flash">
+<![CDATA[
+http://vpaid.pubmatic.com/ads/video/PMAdMgr.swf?adtype=13&pubId=156108&siteId=181957&adId=948873&vadFmt=3&vapi=2&vminl=1&vmaxl=90&vpos=1&vh=364&vw=590&vfmt=1%202%203%204%205%206%207%208&kadpageurl=https%3A%2F%2Fwww.express.co.uk%2Flife-style%2Flife%2F888748%2Fchristmas-tree-fire-safety-tips-advice
+]]>
+</StaticResource>
+</NonLinear>
+</NonLinearAds>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>

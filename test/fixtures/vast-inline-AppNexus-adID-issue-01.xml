@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VAST version="3.0">
+	<Ad id="86701687" sequence="1">
+		<InLine>
+			<AdSystem>adnxs</AdSystem>
+			<AdTitle>
+				<![CDATA[AppNexus Viewability Wrapper]]>
+			</AdTitle>
+			<Error>
+				<![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YgAAAAMArgAFAQmVbWBaAAAAABE1mfSwdMlvIRmVbWBaAAAAACD37KspKAAwnAU43BlA0acuSKqIdFCuu6UDWGViAlVTaAFwAXgAgAEBiAEBkAHFBJgBxwKgAQCoAffsqyk.&event_type=4&error_code=[ERRORCODE]]]>
+			</Error>
+			<Impression id="adnxs">
+				<![CDATA[https://lax1-ib.adnxs.com/it?e=wqT_3QLdCPBMXQQAAAMA1gAFAQiV24HTBRC1stKHy67ytyEY-9WO8eOn2KEhKjYJJAgAbz4lI0ARbqMBvAXSHkAZAAAAYGbmNEAhEoPAyqElKEApAAABAgguQDEBBwEBqDCuu6UDONwZQJwFSAJQ9-yrKViFsDpgAGiwuWh4ns4EgAEBigEDVVNEkgEBBvBQmAEBoAEBqAEBsAEAuAEDwAEFyAEC0AEJ2AEA4AEA8AEAigJ1dWYoJ2EnLCAxNzk3ODQ4LCAxNTE2MjY4OTQ5KTt1ZigncicsIDg2NzAxNjg3Rh4ALGMnLCAyMDAwNzQxOEYeACRpJywgNjk1MjY1NhwA8IeSAtUDIW1XVG9mQWo2azhVSkVQZnNxeWtZQUNDRnNEb3dBRGdBUUFCSW5BVlFycnVsQTFnQVlJTURhQUJ3QUhnQWdBRUFpQUVBa0FFQm1BRUJvQUVCcUFFRHNBRUF1UUh0QktEMkFBQXVRTUVCN1FTZzlnQUFMa0RKQVFBQUFBQUFBUEFfMlFFCQw0QUR3UC1BQjRiY3E5UUUFFGxnQUlBaUFMRnhSaUlBc2pGR0lnQzFiUlppQUxNCRQANwUUNHlzVVlpQUxwdVM2SUF0CRQEMGMBFFRLbHFDdUlBcUNvSzRnQ29hZ3JpQUtqBRQgdXlGb1FHUUFn0gQAIFlBZ0NnQWdDb5YEAAhHb0E2BAAIMUFnAeMEQzkJCPBYREFBZ0RJQWdEUUFnRFlBZ0RnQWdEb0FnRDRBZ0NBQXdHUUF3Q1lBd0dvQV9xVHhRbTZBeEZrWldaaGRXeDBJMHhCV0RFNk16YzBOZy4umgI5IWNReTREZ2oy2AH0IAFoYkE2SUFBb0FEb1JaR1ZtWVhWc2RDTk1RVmd4T2pNM05EWS7YAqBD4ALBiSXqAhRodHRwczovL3d3dy5hb2wuY29tL4ADAIgDAZADAJgDFKADAaoDAMADkBzIAwDYAwzgAwDoAwD4AwOABACSBAkvb3BlbnJ0YjKYBACiBA8xMDguMTg0LjIzMi4xNjWoBBeyBBAIARACGMUEIMcCKAIwADgDuAQAwAQAyAQA0gQRZGVmYXVsdCNMQVgxOjM3NDbaBAIIAeAEAPAE9-yrKfoEEgkAAACgRwFBQBEAAABgZpZdwIgFAZgFAKAF____________AaoFJDQ0MDRmOWRjLTljYTQtNDU4ZS04Y2E5LTJkYzNlMzM5MWYxYsAFAMkFYd4YAADwP9IFCQFbBQFI2AUB4AUB8AVl-gUECAAQAJAGAA..&s=3adb551a554bdb27d6af7ba2cb4636a133f33419&referrer=https%3A%2F%2Fwww.aol.com%2F]]>
+			</Impression>
+			<Creatives>
+				<Creative id="8" adID="86701687">
+					<Linear>
+						<Duration>00:00:15.000</Duration>
+						<TrackingEvents>
+							<Tracking event="start">
+								<![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YgAAAAMArgAFAQmVbWBaAAAAABE1mfSwdMlvIRmVbWBaAAAAACD37KspKAAwnAU43BlA0acuSKqIdFCuu6UDWGViAlVTaAFwAXgAgAEBiAEBkAHFBJgBxwKgAQCoAffsqyk.&event_type=2]]>
+							</Tracking>
+							<Tracking event="skip">
+								<![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YgAAAAMArgAFAQmVbWBaAAAAABE1mfSwdMlvIRmVbWBaAAAAACD37KspKAAwnAU43BlA0acuSKqIdFCuu6UDWGViAlVTaAFwAXgAgAEBiAEBkAHFBJgBxwKgAQCoAffsqyk.&event_type=3]]>
+							</Tracking>
+							<Tracking event="firstQuartile">
+								<![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YgAAAAMArgAFAQmVbWBaAAAAABE1mfSwdMlvIRmVbWBaAAAAACD37KspKAAwnAU43BlA0acuSKqIdFCuu6UDWGViAlVTaAFwAXgAgAEBiAEBkAHFBJgBxwKgAQCoAffsqyk.&event_type=5]]>
+							</Tracking>
+							<Tracking event="midpoint">
+								<![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YgAAAAMArgAFAQmVbWBaAAAAABE1mfSwdMlvIRmVbWBaAAAAACD37KspKAAwnAU43BlA0acuSKqIdFCuu6UDWGViAlVTaAFwAXgAgAEBiAEBkAHFBJgBxwKgAQCoAffsqyk.&event_type=6]]>
+							</Tracking>
+							<Tracking event="thirdQuartile">
+								<![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YgAAAAMArgAFAQmVbWBaAAAAABE1mfSwdMlvIRmVbWBaAAAAACD37KspKAAwnAU43BlA0acuSKqIdFCuu6UDWGViAlVTaAFwAXgAgAEBiAEBkAHFBJgBxwKgAQCoAffsqyk.&event_type=7]]>
+							</Tracking>
+							<Tracking event="complete">
+								<![CDATA[https://lax1-ib.adnxs.com/vast_track/v2?info=YgAAAAMArgAFAQmVbWBaAAAAABE1mfSwdMlvIRmVbWBaAAAAACD37KspKAAwnAU43BlA0acuSKqIdFCuu6UDWGViAlVTaAFwAXgAgAEBiAEBkAHFBJgBxwKgAQCoAffsqyk.&event_type=8]]>
+							</Tracking>
+						</TrackingEvents>
+						<AdParameters>
+							<![CDATA[{"ads":[{"content_source":"rtb","ad_type":"video","notify_url":"https://lax1-ib.adnxs.com/vast_track/v2?info=YgAAAAMArgAFAQmVbWBaAAAAABE1mfSwdMlvIRmVbWBaAAAAACD37KspKAAwnAU43BlA0acuSKqIdFCuu6UDWGViAlVTaAFwAXgAgAEBiAEBkAHFBJgBxwKgAQCoAffsqyk.&event_type=1","usersync_url":"https%3A%2F%2Facdn.adnxs.com%2Fib%2Fstatic%2Fusersync%2Fv3%2Fasync_usersync.html","buyer_member_id":668,"creative_id":86701687,"media_type_id":4,"media_subtype_id":64,"client_initiated_ad_counting":true,"viewability":{"config":"tv=vh2-66&d=1x1&s=1901610&st=0&vctx=1&ts=1516268949&vc=iab;vid_ccr=1&vjs=https%3A%2F%2Fcdn.adnxs.com%2Fv%2Fvideo%2F112%2Ftrk.js&url=https%3A%2F%2Fwww.aol.com%2F&cb=https%3A%2F%2Flax1-ib.adnxs.com%2Fvevent%3Fe%3DwqT_3QK7CfBMuwQAAAMA1gAFAQiV24HTBRC1stKHy67ytyEY-9WO8eOn2KEhKjYJJAgAbz4lI0ARbqMBvAXSHkAZAAAAYGbmNEAhEoPAyqElKEApAAABAgguQDEBBwEBqDCuu6UDONwZQJwFSAJQ9-yrKViFsDpgAGiwuWh4ns4EgAEBigEDVVNEkgEBBvBQmAEBoAEBqAEBsAEAuAEDwAEFyAEC0AEJ2AEA4AEA8AEAigJ1dWYoJ2EnLCAxNzk3ODQ4LCAxNTE2MjY4OTQ5KTt1ZigncicsIDg2NzAxNjg3Rh4ALGMnLCAyMDAwNzQxOEYeACRpJywgNjk1MjY1NhwA8IeSAtUDIW1XVG9mQWo2azhVSkVQZnNxeWtZQUNDRnNEb3dBRGdBUUFCSW5BVlFycnVsQTFnQVlJTURhQUJ3QUhnQWdBRUFpQUVBa0FFQm1BRUJvQUVCcUFFRHNBRUF1UUh0QktEMkFBQXVRTUVCN1FTZzlnQUFMa0RKQVFBQUFBQUFBUEFfMlFFCQw0QUR3UC1BQjRiY3E5UUUFFGxnQUlBaUFMRnhSaUlBc2pGR0lnQzFiUlppQUxNCRQANwUUNHlzVVlpQUxwdVM2SUF0CRQEMGMBFFRLbHFDdUlBcUNvSzRnQ29hZ3JpQUtqBRQgdXlGb1FHUUFn0gQAIFlBZ0NnQWdDb5YEAAhHb0E2BAAIMUFnAeMEQzkJCPBYREFBZ0RJQWdEUUFnRFlBZ0RnQWdEb0FnRDRBZ0NBQXdHUUF3Q1lBd0dvQV9xVHhRbTZBeEZrWldaaGRXeDBJMHhCV0RFNk16YzBOZy4umgI5IWNReTREZ2oy2AHwWGhiQTZJQUFvQURvUlpHVm1ZWFZzZENOTVFWZ3hPak0zTkRZLtgCoEPgAsGJJeoCFGh0dHBzOi8vd3d3LmFvbC5jb20v8gIRCgZBRFZfSUQSBzE3OTc4NDjyARQMQ1BHXwEUNDUxMjg3ODHyAhEKBUNQARMACFGbEPICDQoIATw0RlJFURIBMPICDwoFSU8BJAAGSaHwloADAIgDAZADAJgDFKADAaoDAMADkBzIAwDYAwzgAwDoAwD4AwOABACSBAkvb3BlbnJ0YjKYBACiBA8xMDguMTg0LjIzMi4xNjWoBBeyBBAIARACGMUEIMcCKAIwADgDuAQAwAQAyAQA0gQRZGVmYXVsdCNMQVgxOjM3NDbaBAIIAeAEAPAE9-yrKfoEEgkAAACgRwFBQBGFFSyWXcCIBQGYBQCgBf8RAbABqgUkNDQwNGY5ZGMtOWNhNC00NThlLThjYTktMmRjM2UzMzkxZjFiwAUAyQWBPBwAAPA_0gUJCQkMUAAA2AUB4AUB8AVl-gUECAAQAJAGAA..%26s%3D988f89ab8623ad2347d9d2fce6a7a0b3baa988fc%26referrer%3Dhttps%253A%252F%252Fwww.aol.com%252F&cet=0&cecb=&rdcb=https%3A%2F%2Flax1-ib.adnxs.com%2Frd_log%3Fe%3DwqT_3QK7CfBMuwQAAAMA1gAFAQiV24HTBRC1stKHy67ytyEY-9WO8eOn2KEhKjYJJAgAbz4lI0ARbqMBvAXSHkAZAAAAYGbmNEAhEoPAyqElKEApAAABAgguQDEBBwEBqDCuu6UDONwZQJwFSAJQ9-yrKViFsDpgAGiwuWh4ns4EgAEBigEDVVNEkgEBBvBQmAEBoAEBqAEBsAEAuAEDwAEFyAEC0AEJ2AEA4AEA8AEAigJ1dWYoJ2EnLCAxNzk3ODQ4LCAxNTE2MjY4OTQ5KTt1ZigncicsIDg2NzAxNjg3Rh4ALGMnLCAyMDAwNzQxOEYeACRpJywgNjk1MjY1NhwA8IeSAtUDIW1XVG9mQWo2azhVSkVQZnNxeWtZQUNDRnNEb3dBRGdBUUFCSW5BVlFycnVsQTFnQVlJTURhQUJ3QUhnQWdBRUFpQUVBa0FFQm1BRUJvQUVCcUFFRHNBRUF1UUh0QktEMkFBQXVRTUVCN1FTZzlnQUFMa0RKQVFBQUFBQUFBUEFfMlFFCQw0QUR3UC1BQjRiY3E5UUUFFGxnQUlBaUFMRnhSaUlBc2pGR0lnQzFiUlppQUxNCRQANwUUNHlzVVlpQUxwdVM2SUF0CRQEMGMBFFRLbHFDdUlBcUNvSzRnQ29hZ3JpQUtqBRQgdXlGb1FHUUFn0gQAIFlBZ0NnQWdDb5YEAAhHb0E2BAAIMUFnAeMEQzkJCPBYREFBZ0RJQWdEUUFnRFlBZ0RnQWdEb0FnRDRBZ0NBQXdHUUF3Q1lBd0dvQV9xVHhRbTZBeEZrWldaaGRXeDBJMHhCV0RFNk16YzBOZy4umgI5IWNReTREZ2oy2AHwWGhiQTZJQUFvQURvUlpHVm1ZWFZzZENOTVFWZ3hPak0zTkRZLtgCoEPgAsGJJeoCFGh0dHBzOi8vd3d3LmFvbC5jb20v8gIRCgZBRFZfSUQSBzE3OTc4NDjyARQMQ1BHXwEUNDUxMjg3ODHyAhEKBUNQARMACFGbEPICDQoIATw0RlJFURIBMPICDwoFSU8BJAAGSaHwloADAIgDAZADAJgDFKADAaoDAMADkBzIAwDYAwzgAwDoAwD4AwOABACSBAkvb3BlbnJ0YjKYBACiBA8xMDguMTg0LjIzMi4xNjWoBBeyBBAIARACGMUEIMcCKAIwADgDuAQAwAQAyAQA0gQRZGVmYXVsdCNMQVgxOjM3NDbaBAIIAeAEAPAE9-yrKfoEEgkAAACgRwFBQBGFFSyWXcCIBQGYBQCgBf8RAbABqgUkNDQwNGY5ZGMtOWNhNC00NThlLThjYTktMmRjM2UzMzkxZjFiwAUAyQWBPBwAAPA_0gUJCQkMUAAA2AUB4AUB8AVl-gUECAAQAJAGAA..%26s%3D988f89ab8623ad2347d9d2fce6a7a0b3baa988fc%26referrer%3Dhttps%253A%252F%252Fwww.aol.com%252F&bridge=1.11.0&rblog=auc=2409365828688714037;sm=3292;cr=86701687;pl=6905262&vid_context=anoutstream;anbannerstream;anoverlayplayer"},"rtb":{"video":{"player_width":581,"player_height":327,"duration_ms":15000,"playback_methods":["auto_play_sound_on"],"frameworks":["vpaid_2_0"]},"content_b64":"PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI_PjxWQVNUIHZlcnNpb249IjMuMCI-PEFkIGlkPSI4NjcwMTY4NyIgc2VxdWVuY2U9IjEiPjxXcmFwcGVyPjxBZFN5c3RlbSB2ZXJzaW9uPSIyLjAiPk1lZGlhTWluZDwvQWRTeXN0ZW0-PFZBU1RBZFRhZ1VSST48IVtDREFUQVtodHRwczovL2JzLnNlcnZpbmctc3lzLmNvbS9TZXJ2aW5nL2FkU2VydmVyLmJzP2M9MjMmY249ZGlzcGxheSZwbGk9MTA3NDE5NDcwMiZvcmQ9NTEzNTQ0MzM4XV0-PC9WQVNUQWRUYWdVUkk-PEltcHJlc3Npb24gaWQ9ImFkbnhzIj48IVtDREFUQVtodHRwczovL2liLmFkbnhzLmNvbS9ub3BdXT48L0ltcHJlc3Npb24-PENyZWF0aXZlcz48Q3JlYXRpdmUgaWQ9IjE4MjA2MzkiIGFkSUQ9Ijg2NzAxNjg3Ij48TGluZWFyPjwvTGluZWFyPjwvQ3JlYXRpdmU-PC9DcmVhdGl2ZXM-PC9XcmFwcGVyPjwvQWQ-PC9WQVNUPg.."}}]}]]>
+						</AdParameters>
+						<VideoClicks>
+							<ClickTracking id="adnxs">
+								<![CDATA[https://lax1-ib.adnxs.com/click?JAgAbz4lI0BuowG8BdIeQAAAAGBm5jRAEoPAyqElKEAAAAAAAAAuQDWZ9LB0yW8h-6ojPj5hQyGVbWBaAAAAAK5daQDcDAAAnAIAAAIAAAB39ioFBZgOAAAAAABVU0QAVVNEAAEAAQCwHAAAAAABAwUCAAAAALQA7Bv0pgAAAAA./cnd=%21cQy4Dgj6k8UJEPfsqykYhbA6IAAoADoRZGVmYXVsdCNMQVgxOjM3NDY./bn=75550/referrer=https%3A%2F%2Fwww.aol.com%2F/]]>
+							</ClickTracking>
+						</VideoClicks>
+						<MediaFiles>
+							<MediaFile id="2" delivery="progressive" type="application/javascript" width="640" height="360" scalable="true" maintainAspectRatio="true" apiFramework="VPAID">
+								<![CDATA[https://acdn.adnxs.com/vx/static/w/anwrapper-1.387.0.js]]>
+							</MediaFile>
+							<MediaFile id="3" delivery="progressive" type="application/x-shockwave-flash" width="640" height="360" scalable="true" maintainAspectRatio="true" apiFramework="VPAID">
+								<![CDATA[https://acdn.adnxs.com/vx/static/w/anwrapper-2.123.0.swf]]>
+							</MediaFile>
+						</MediaFiles>
+					</Linear>
+				</Creative>
+			</Creatives>
+		</InLine>
+	</Ad>
+</VAST>

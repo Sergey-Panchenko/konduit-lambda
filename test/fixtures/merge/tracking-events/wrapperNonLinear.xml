@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VAST version="2.0">
+  <Ad id="wrapper0.xml">
+    <Wrapper>
+      <AdSystem>Test</AdSystem>
+      <VASTAdTagURI>
+        <![CDATA[
+          ./wrapper_0.xml
+        ]]>
+      </VASTAdTagURI>
+      <Error>
+        https://VAST/Ad/wrapper0.xml/Wrapper/Creatives/Creative/Error
+      </Error>
+      <Impression>
+        https://VAST/Ad/wrapper0.xml/Wrapper/Creatives/Creative/Impression
+      </Impression>
+      <Creatives>
+        <Creative>
+          <NonLinearAds>
+            <NonLinear apiFramework="VPAID" height="60" width="380" id="overlay-1">
+              <StaticResource creativeType="application/x-shockwave-flash">
+              <![CDATA[
+              http://static.scanscout.com/ads/vpaidad3.swf?adData=http%3A//app.scanscout.com/ssframework/adStreamJSController.xml%3Fa%3Dgetadscheduleforcontent%26PI%3D567%26scheduleVersion%3D3%26HI%3D567|overlay|372934318%26AI%3D0
+              ]]>
+              </StaticResource>
+            </NonLinear>
+          </NonLinearAds>
+        </Creative>
+      </Creatives>
+      <Extensions>
+        <Extension type="wrapper_0_Extension">
+          <ParamA>wrapper_0_Extension/ValueA</ParamA>
+          <ParamB>wrapper_0_Extension/ValueB</ParamB>
+          <ParamC>wrapper_0_Extension/ValueC</ParamC>
+        </Extension>
+      </Extensions>
+    </Wrapper>
+  </Ad>
+</VAST>

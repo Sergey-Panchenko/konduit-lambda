@@ -1,0 +1,38 @@
+
+<VAST version="3.0">
+  <Ad>
+    <Wrapper>
+      <AdSystem>test_014w</AdSystem>
+      <VASTAdTagURI>
+      <![CDATA[
+      https://s3.us-east-2.amazonaws.com/kme-vast-sample/vast-auto-test/test_015w.xml
+      ]]>
+      </VASTAdTagURI>
+      <Impression>
+      <![CDATA[ http://myTrackingURL/test_014w/impression ]]>
+      </Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="creativeView"><![CDATA[http://myTrackingURL/test_014w/linear/tracking/creativeView]]></Tracking>
+              <Tracking event="start"><![CDATA[http://myTrackingURL/test_014w/linear/tracking/start]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[http://myTrackingURL/test_014w/linear/tracking/firstQuartile1]]></Tracking>
+              <Tracking event="firstQuartile"><![CDATA[http://myTrackingURL/test_014w/linear/tracking/firstQuartile2]]></Tracking>
+              <Tracking event="midpoint"><![CDATA[http://myTrackingURL/test_014w/linear/tracking/midpoint]]></Tracking>
+              <Tracking event="thirdQuartile"><![CDATA[http://myTrackingURL/test_014w/linear/tracking/thirdQuartile]]></Tracking>
+              <Tracking event="complete"><![CDATA[http://myTrackingURL/test_014w/linear/tracking/complete]]></Tracking>
+              <Tracking event="mute">	<![CDATA[ http://myTrackingURL/test_014w/linear/tracking/mute ]]></Tracking>
+              <Tracking event="unmute"><![CDATA[http://myTrackingURL/test_014w/linear/tracking/unmute]]></Tracking>
+              <Tracking event="pause"><![CDATA[http://myTrackingURL/test_014w/linear/tracking/pause]]></Tracking>
+              <Tracking event="rewind"><![CDATA[http://myTrackingURL/test_014w/linear/tracking/rewind]]></Tracking>
+              <Tracking event="resume"><![CDATA[http://myTrackingURL/test_014w/linear/tracking/resume]]></Tracking>
+              <Tracking event="skip"><![CDATA[ http://myTrackingURL/test_014w/linear/tracking/skip ]]></Tracking>
+              <Tracking event="progress" offset="00:00:05"><![CDATA[http://myTrackingURL/test_014w/linear/tracking/progress]]></Tracking>
+            </TrackingEvents>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </Wrapper>
+  </Ad>
+</VAST>

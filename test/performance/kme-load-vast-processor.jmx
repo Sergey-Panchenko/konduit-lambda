@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="3.1" jmeter="3.1 r1770033">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="KME load test" enabled="true">
+      <stringProp name="TestPlan.comments">The test to be used in local environment since AWS vast processor cluster is private and not accessible from outer world.</stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments">
+          <elementProp name="kme_processor_server" elementType="Argument">
+            <stringProp name="Argument.name">kme_processor_server</stringProp>
+            <stringProp name="Argument.value">127.0.0.1</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+          <elementProp name="kme_processor_port" elementType="Argument">
+            <stringProp name="Argument.name">kme_processor_port</stringProp>
+            <stringProp name="Argument.value">8080</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
+        </collectionProp>
+      </elementProp>
+      <stringProp name="TestPlan.user_define_classpath"></stringProp>
+    </TestPlan>
+    <hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Client group" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+          <stringProp name="LoopController.loops">1</stringProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">10</stringProp>
+        <longProp name="ThreadGroup.start_time">1490606664000</longProp>
+        <longProp name="ThreadGroup.end_time">1490606664000</longProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+      </ThreadGroup>
+      <hashTree>
+        <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults" enabled="true">
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.domain">${kme_processor_server}</stringProp>
+          <stringProp name="HTTPSampler.port">${kme_processor_port}</stringProp>
+          <stringProp name="HTTPSampler.connect_timeout">10000</stringProp>
+          <stringProp name="HTTPSampler.response_timeout">30000</stringProp>
+          <stringProp name="HTTPSampler.protocol"></stringProp>
+          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+          <stringProp name="HTTPSampler.path">/postvast</stringProp>
+          <stringProp name="HTTPSampler.implementation">HttpClient4</stringProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+        </ConfigTestElement>
+        <hashTree/>
+        <GenericController guiclass="LogicControllerGui" testclass="GenericController" testname="Request processor" enabled="true"/>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Req: Innovid" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot;?&gt;&#xd;
+&lt;VAST version=&quot;2.0&quot;&gt;&#xd;
+    &lt;Ad id=&quot;1h41kg&quot;&gt;&#xd;
+        &lt;InLine&gt;&#xd;
+            &lt;AdSystem&gt;Innovid Ads&lt;/AdSystem&gt;&#xd;
+            &lt;AdTitle&gt;&lt;![CDATA[Certification Testing VPAID - MRAID - Click on Main copy (5/20/2016)]]&gt;&lt;/AdTitle&gt;&#xd;
+            &lt;Impression&gt;&lt;![CDATA[about:blank]]&gt;&lt;/Impression&gt;&#xd;
+            &lt;Creatives&gt;&#xd;
+                &lt;Creative&gt;&#xd;
+                    &lt;Linear&gt;&#xd;
+                        &lt;Duration&gt;00:00:15&lt;/Duration&gt;&#xd;
+                        &lt;MediaFiles&gt;&#xd;
+                            &lt;MediaFile delivery=&quot;progressive&quot; width=&quot;16&quot; height=&quot;9&quot; type=&quot;application/javascript&quot; apiFramework=&quot;VPAID&quot;&gt;&lt;![CDATA[http://static.innovid.com/mobileapps/js/vpaid/1h41kg?cb=e0fb507e-3e67-826e-d107-3510e10e6ee5&amp;deviceid=&amp;ivc=[ecp]]]&gt;&lt;/MediaFile&gt;&#xd;
+                        &lt;/MediaFiles&gt;&#xd;
+                    &lt;/Linear&gt;&#xd;
+                &lt;/Creative&gt;&#xd;
+                &#xd;
+            &lt;/Creatives&gt;&#xd;
+        &lt;/InLine&gt;&#xd;
+    &lt;/Ad&gt;&#xd;
+&lt;/VAST&gt;</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/postvast</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.monitor">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Req: Jwplayer" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">&lt;VAST version=&quot;3.0&quot;&gt;&#xd;
+    &lt;Ad id=&quot;1234567&quot;&gt;&#xd;
+        &lt;InLine&gt;&#xd;
+            &lt;AdSystem&gt;Ad System&lt;/AdSystem&gt;&#xd;
+            &lt;AdTitle&gt;VPAID 2 Linear&lt;/AdTitle&gt;&#xd;
+            &lt;Description&gt;VPAID 2 Linear Video Ad&lt;/Description&gt;&#xd;
+            &lt;Creatives&gt;&#xd;
+                &lt;Creative sequence=&quot;1&quot;&gt;&#xd;
+                    &lt;Linear&gt;&#xd;
+                        &lt;Duration&gt;00:00:30&lt;/Duration&gt;&#xd;
+                        &lt;AdParameters&gt;&#xd;
+                        &lt;![CDATA[&#xd;
+                            {&quot;videos&quot;:[&#xd;
+                                {&quot;url&quot;:&quot;//s3.amazonaws.com/demo.jwplayer.com/player-demos/assets/preroll.mp4&quot;,&quot;mimetype&quot;:&quot;video/mp4&quot;}],&#xd;
+                            &quot;attributes&quot;: {&#xd;
+                                &quot;desiredBitrate&quot; : 256,&#xd;
+                                &quot;duration&quot; : 30,&#xd;
+                                &quot;expanded&quot; : false,&#xd;
+                                &quot;height&quot; : 0,&#xd;
+                                &quot;icons&quot; : &quot;&quot;,&#xd;
+                                &quot;linear&quot; : true,&#xd;
+                                &quot;remainingTime&quot; : 30,&#xd;
+                                &quot;skippableState&quot; : true,&#xd;
+                                &quot;viewMode&quot; : &quot;normal&quot;,&#xd;
+                                &quot;width&quot; : 0,&#xd;
+                                &quot;volume&quot; : 1.0&#xd;
+                                }&#xd;
+                            }&#xd;
+                            ]]&gt;&#xd;
+                        &lt;/AdParameters&gt;&#xd;
+                        &lt;VideoClicks&gt;&#xd;
+                            &lt;ClickThrough id=&quot;GDFP&quot;&gt;&#xd;
+                                &lt;![CDATA[ http://www.jwplayer.com ]]&gt;&#xd;
+                            &lt;/ClickThrough&gt;&#xd;
+                        &lt;/VideoClicks&gt;&#xd;
+                        &lt;MediaFiles&gt;&#xd;
+                            &lt;MediaFile apiFramework=&quot;VPAID&quot; type=&quot;application/javascript&quot;&gt;&#xd;
+                                &lt;![CDATA[ //support-static.jwplayer.com/content/advertising/vpaid-2-player-test.js]]&gt;&#xd;
+                            &lt;/MediaFile&gt;&#xd;
+                        &lt;/MediaFiles&gt;&#xd;
+                    &lt;/Linear&gt;&#xd;
+                &lt;/Creative&gt;&#xd;
+            &lt;/Creatives&gt;&#xd;
+        &lt;/InLine&gt;&#xd;
+    &lt;/Ad&gt;&#xd;
+&lt;/VAST&gt;</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/postvast</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.monitor">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Req: Adap.tv (freeze)" enabled="false">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#xd;
+&#xd;
+&lt;VAST version=&quot;2.0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:noNamespaceSchemaLocation=&quot;oxml.xsd&quot;&gt;&#xd;
+  &lt;Ad id=&quot;1&quot;&gt;&#xd;
+    &lt;InLine&gt;&#xd;
+      &lt;AdSystem version=&quot;1.0&quot;&gt;Adap.tv&lt;/AdSystem&gt;&#xd;
+&#xd;
+      &lt;AdTitle&gt;&lt;![CDATA[Adap.tv Ad Unit]]&gt;&lt;/AdTitle&gt;&#xd;
+&#xd;
+      &lt;Impression&gt;      &lt;/Impression&gt;&#xd;
+&#xd;
+      &lt;Creatives&gt;&#xd;
+        &lt;Creative&gt;&#xd;
+          &lt;Linear&gt;&#xd;
+            &lt;Duration&gt;&lt;![CDATA[00:00:30]]&gt;&lt;/Duration&gt;&#xd;
+&#xd;
+            &lt;AdParameters&gt;&lt;![CDATA[adTagUrl=http%3A%2F%2Fads.adaptv.advertising.com%2Fa%2Fh%2F_2JTaTCrWEZu05rUrd8U8P0SxzR0HV7U%3Fcb%3D44208236842786951%26pageUrl%3Dhttp%3A%2F%2Fwww.huffingtonpost.com%2Fentry%2Fpresidents-white-house-correspondents-dinner_us_59026223e4b0bb2d086c4591%3Ftbh%26ncid%3Dinblnkushpmg00000009%26duration%3D114740%26id%3D5902435e1de5a10c8fc5ac64%26eov%3Deov%26categories%3D%26context%3DtransId%253D5903583ea17e73246661f51a%252CstudioId%253D58a21babbc67d24483b31e0c%252Cbcid%253D56000e19e4b0e4e194b84b31%252Cpid%253D58cff658bbbb0a42cc75f2a5%252Cmv%253D0%252Cssname%253Dus.video%252Csponsorship%3DSPONSORSHIP_NAME%252Cfv%253D0.0%252Cfd%253D0.0%252Cfi%253D0.0%252Cfp%253D0.0%252Cfw%253D0.0%252Cfdv%253D0.0%252Cbv%253DGREEN%252Cvp%253D1%252Cat%253D1%252Cs%253D1%252Csd%253D100%26%26a.cluster%3D0%26a.pvt%3D0&amp;companionId=&amp;cpmPassback=&amp;placementId=555537&amp;orgId=3679&amp;injectCompanionDummy=&amp;pauseOnClick=&amp;d.vw=&amp;d.app=&amp;referer=http%3A%2F%2Fwww.huffingtonpost.com%2Fentry%2Fpresidents-white-house-correspondents-dinner_us_59026223e4b0bb2d086c4591%3Ftbh%26ncid%3Dinblnkushpmg00000009]]&gt;&lt;/AdParameters&gt;&#xd;
+&#xd;
+            &lt;MediaFiles&gt;&#xd;
+              &lt;MediaFile delivery=&quot;progressive&quot; width=&quot;400&quot; height=&quot;300&quot; type=&quot;application/javascript&quot; apiFramework=&quot;VPAID&quot;&gt;&lt;![CDATA[http://redir.adap.tv/redir/javascript/jsvpaid.js]]&gt;&lt;/MediaFile&gt;&#xd;
+&#xd;
+              &lt;MediaFile delivery=&quot;progressive&quot; width=&quot;400&quot; height=&quot;300&quot; type=&quot;application/x-shockwave-flash&quot; apiFramework=&quot;VPAID&quot;&gt;&lt;![CDATA[http://redir.adap.tv/redir/client/VPAIDClient.swf?adTagUrl=http%3A%2F%2Fads.adaptv.advertising.com%2Fa%2Fh%2F_2JTaTCrWEZu05rUrd8U8P0SxzR0HV7U%3Fcb%3D44208236842786951%26pageUrl%3Dhttp%3A%2F%2Fwww.huffingtonpost.com%2Fentry%2Fpresidents-white-house-correspondents-dinner_us_59026223e4b0bb2d086c4591%3Ftbh%26ncid%3Dinblnkushpmg00000009%26duration%3D114740%26id%3D5902435e1de5a10c8fc5ac64%26eov%3Deov%26categories%3D%26context%3DtransId%253D5903583ea17e73246661f51a%252CstudioId%253D58a21babbc67d24483b31e0c%252Cbcid%253D56000e19e4b0e4e194b84b31%252Cpid%253D58cff658bbbb0a42cc75f2a5%252Cmv%253D0%252Cssname%253Dus.video%252Csponsorship%3DSPONSORSHIP_NAME%252Cfv%253D0.0%252Cfd%253D0.0%252Cfi%253D0.0%252Cfp%253D0.0%252Cfw%253D0.0%252Cfdv%253D0.0%252Cbv%253DGREEN%252Cvp%253D1%252Cat%253D1%252Cs%253D1%252Csd%253D100%26%26a.cluster%3D0%26a.pvt%3D0&amp;companionId=&amp;cpmPassback=&amp;placementId=555537&amp;orgId=3679&amp;injectCompanionDummy=&amp;pauseOnClick=&amp;d.vw=&amp;d.app=]]&gt;&lt;/MediaFile&gt;&#xd;
+            &lt;/MediaFiles&gt;&#xd;
+          &lt;/Linear&gt;&#xd;
+        &lt;/Creative&gt;&#xd;
+&#xd;
+        &lt;Creative&gt;&#xd;
+          &lt;CompanionAds&gt;&#xd;
+            &lt;Companion width=&quot;300&quot; height=&quot;250&quot;&gt;&#xd;
+              &lt;HTMLResource&gt;&lt;![CDATA[&lt;div id=&quot;adaptvCompanion300x250&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;]]&gt;&lt;/HTMLResource&gt;&#xd;
+            &lt;/Companion&gt;&#xd;
+&#xd;
+            &lt;Companion width=&quot;300&quot; height=&quot;60&quot;&gt;&#xd;
+              &lt;HTMLResource&gt;&lt;![CDATA[&lt;div id=&quot;adaptvCompanion300x60&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;]]&gt;&lt;/HTMLResource&gt;&#xd;
+            &lt;/Companion&gt;&#xd;
+&#xd;
+            &lt;Companion width=&quot;300&quot; height=&quot;100&quot;&gt;&#xd;
+              &lt;HTMLResource&gt;&lt;![CDATA[&lt;div id=&quot;adaptvCompanion300x100&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;]]&gt;&lt;/HTMLResource&gt;&#xd;
+            &lt;/Companion&gt;&#xd;
+&#xd;
+            &lt;Companion width=&quot;468&quot; height=&quot;60&quot;&gt;&#xd;
+              &lt;HTMLResource&gt;&lt;![CDATA[&lt;div id=&quot;adaptvCompanion468x60&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;]]&gt;&lt;/HTMLResource&gt;&#xd;
+            &lt;/Companion&gt;&#xd;
+&#xd;
+            &lt;Companion width=&quot;728&quot; height=&quot;90&quot;&gt;&#xd;
+              &lt;HTMLResource&gt;&lt;![CDATA[&lt;div id=&quot;adaptvCompanion728x90&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;]]&gt;&lt;/HTMLResource&gt;&#xd;
+            &lt;/Companion&gt;&#xd;
+          &lt;/CompanionAds&gt;&#xd;
+        &lt;/Creative&gt;&#xd;
+      &lt;/Creatives&gt;&#xd;
+&#xd;
+      &lt;Extensions&gt;      &lt;/Extensions&gt;&#xd;
+    &lt;/InLine&gt;&#xd;
+  &lt;/Ad&gt;&#xd;
+&lt;/VAST&gt;</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/postvast</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.monitor">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Req: Adap.tv (no result)" enabled="false">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">&lt;VAST xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; version=&quot;2.0&quot; xsi:noNamespaceSchemaLocation=&quot;oxml.xsd&quot;&gt;&#xd;
+&lt;Ad id=&quot;1&quot;&gt;&#xd;
+&lt;InLine&gt;&#xd;
+&lt;AdSystem version=&quot;1.0&quot;&gt;Adap.tv&lt;/AdSystem&gt;&#xd;
+&lt;AdTitle&gt;&#xd;
+&lt;![CDATA[ Adap.tv Ad Unit ]]&gt;&#xd;
+&lt;/AdTitle&gt;&#xd;
+&lt;Impression/&gt;&#xd;
+&lt;Creatives&gt;&#xd;
+&lt;Creative&gt;&#xd;
+&lt;Linear&gt;&#xd;
+&lt;Duration&gt;&#xd;
+&lt;![CDATA[ 00:00:30 ]]&gt;&#xd;
+&lt;/Duration&gt;&#xd;
+&lt;AdParameters&gt;&#xd;
+&lt;![CDATA[&#xd;
+adTagUrl=http%3A%2F%2Fads.adaptv.advertising.com%2Fa%2Fh%2F_2JTaTCrWEZu05rUrd8U8P0SxzR0HV7U%3Fcb%3D32554926908754607%26pageUrl%3Dhttp%3A%2F%2Fwww.msn.com%2Fen-us%2Fmovies%2Fnews%2Fjohnny-depp-as-jack-sparrow-makes-surprise-appearance-at-pirates-of-the-caribbean-disneyland-ride%2Far-BBAqpbQ%3Fli%3DAA2qN5v%26ocid%3Dspartanntp%26duration%3D144707%26id%3D58b8518c5095496cc2f2d3aa%26title%3D%2527Pirates%2520of%2520the%2520Caribbean%3A%2520Dead%2520Men%2520Tell%2520No%2520Tales%2527%2520Trailer%2520%282017%29%26eov%3Deov%26categories%3DEntertainment%26context%3DtransId%253D590208d84e79f92539f1f1db%252CstudioId%253D551456271146fb0d084da5b8%252Cbcid%253D56603651bbe5bf10d057f868%252Cpid%253D566b246ae4b092ad13e7a70e%252Cmv%253D0%252Cssname%253D%252C%252Cfv%253D0.0%252Cfd%253D0.0%252Cfi%253D0.0%252Cfp%253D0.0%252Cfw%253D0.0%252Cfdv%253D0.0%252Cbv%253DGREEN%252Cvp%253D0%252Cat%253D1%252Cs%253D0%252Csd%253D50%26a.cluster%3D0%26a.pvt%3D0&amp;companionId=&amp;cpmPassback=&amp;placementId=555537&amp;orgId=3679&amp;injectCompanionDummy=&amp;pauseOnClick=&amp;d.vw=&amp;d.app=&amp;referer=-&#xd;
+]]&gt;&#xd;
+&lt;/AdParameters&gt;&#xd;
+&lt;MediaFiles&gt;&#xd;
+&lt;MediaFile delivery=&quot;progressive&quot; width=&quot;400&quot; height=&quot;300&quot; type=&quot;application/javascript&quot; apiFramework=&quot;VPAID&quot;&gt;&#xd;
+&lt;![CDATA[ http://redir.adap.tv/redir/javascript/jsvpaid.js ]]&gt;&#xd;
+&lt;/MediaFile&gt;&#xd;
+&lt;MediaFile delivery=&quot;progressive&quot; width=&quot;400&quot; height=&quot;300&quot; type=&quot;application/x-shockwave-flash&quot; apiFramework=&quot;VPAID&quot;&gt;&#xd;
+&lt;![CDATA[&#xd;
+http://redir.adap.tv/redir/client/VPAIDClient.swf?adTagUrl=http%3A%2F%2Fads.adaptv.advertising.com%2Fa%2Fh%2F_2JTaTCrWEZu05rUrd8U8P0SxzR0HV7U%3Fcb%3D32554926908754607%26pageUrl%3Dhttp%3A%2F%2Fwww.msn.com%2Fen-us%2Fmovies%2Fnews%2Fjohnny-depp-as-jack-sparrow-makes-surprise-appearance-at-pirates-of-the-caribbean-disneyland-ride%2Far-BBAqpbQ%3Fli%3DAA2qN5v%26ocid%3Dspartanntp%26duration%3D144707%26id%3D58b8518c5095496cc2f2d3aa%26title%3D%2527Pirates%2520of%2520the%2520Caribbean%3A%2520Dead%2520Men%2520Tell%2520No%2520Tales%2527%2520Trailer%2520%282017%29%26eov%3Deov%26categories%3DEntertainment%26context%3DtransId%253D590208d84e79f92539f1f1db%252CstudioId%253D551456271146fb0d084da5b8%252Cbcid%253D56603651bbe5bf10d057f868%252Cpid%253D566b246ae4b092ad13e7a70e%252Cmv%253D0%252Cssname%253D%252C%252Cfv%253D0.0%252Cfd%253D0.0%252Cfi%253D0.0%252Cfp%253D0.0%252Cfw%253D0.0%252Cfdv%253D0.0%252Cbv%253DGREEN%252Cvp%253D0%252Cat%253D1%252Cs%253D0%252Csd%253D50%26a.cluster%3D0%26a.pvt%3D0&amp;companionId=&amp;cpmPassback=&amp;placementId=555537&amp;orgId=3679&amp;injectCompanionDummy=&amp;pauseOnClick=&amp;d.vw=&amp;d.app=&#xd;
+]]&gt;&#xd;
+&lt;/MediaFile&gt;&#xd;
+&lt;/MediaFiles&gt;&#xd;
+&lt;/Linear&gt;&#xd;
+&lt;/Creative&gt;&#xd;
+&lt;Creative&gt;&#xd;
+&lt;CompanionAds&gt;&#xd;
+&lt;Companion width=&quot;300&quot; height=&quot;250&quot;&gt;&#xd;
+&lt;HTMLResource&gt;&#xd;
+&lt;![CDATA[&#xd;
+&lt;div id=&quot;adaptvCompanion300x250&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;&#xd;
+]]&gt;&#xd;
+&lt;/HTMLResource&gt;&#xd;
+&lt;/Companion&gt;&#xd;
+&lt;Companion width=&quot;300&quot; height=&quot;60&quot;&gt;&#xd;
+&lt;HTMLResource&gt;&#xd;
+&lt;![CDATA[&#xd;
+&lt;div id=&quot;adaptvCompanion300x60&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;&#xd;
+]]&gt;&#xd;
+&lt;/HTMLResource&gt;&#xd;
+&lt;/Companion&gt;&#xd;
+&lt;Companion width=&quot;300&quot; height=&quot;100&quot;&gt;&#xd;
+&lt;HTMLResource&gt;&#xd;
+&lt;![CDATA[&#xd;
+&lt;div id=&quot;adaptvCompanion300x100&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;&#xd;
+]]&gt;&#xd;
+&lt;/HTMLResource&gt;&#xd;
+&lt;/Companion&gt;&#xd;
+&lt;Companion width=&quot;468&quot; height=&quot;60&quot;&gt;&#xd;
+&lt;HTMLResource&gt;&#xd;
+&lt;![CDATA[&#xd;
+&lt;div id=&quot;adaptvCompanion468x60&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;&#xd;
+]]&gt;&#xd;
+&lt;/HTMLResource&gt;&#xd;
+&lt;/Companion&gt;&#xd;
+&lt;Companion width=&quot;728&quot; height=&quot;90&quot;&gt;&#xd;
+&lt;HTMLResource&gt;&#xd;
+&lt;![CDATA[&#xd;
+&lt;div id=&quot;adaptvCompanion728x90&quot; style=&quot;display:none;&quot;&gt;&lt;/div&gt;&#xd;
+]]&gt;&#xd;
+&lt;/HTMLResource&gt;&#xd;
+&lt;/Companion&gt;&#xd;
+&lt;/CompanionAds&gt;&#xd;
+&lt;/Creative&gt;&#xd;
+&lt;/Creatives&gt;&#xd;
+&lt;Extensions/&gt;&#xd;
+&lt;/InLine&gt;&#xd;
+&lt;/Ad&gt;&#xd;
+&lt;/VAST&gt;</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.domain"></stringProp>
+            <stringProp name="HTTPSampler.port"></stringProp>
+            <stringProp name="HTTPSampler.connect_timeout"></stringProp>
+            <stringProp name="HTTPSampler.response_timeout"></stringProp>
+            <stringProp name="HTTPSampler.protocol"></stringProp>
+            <stringProp name="HTTPSampler.contentEncoding"></stringProp>
+            <stringProp name="HTTPSampler.path">/postvast</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.monitor">false</boolProp>
+            <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
+          </HTTPSamplerProxy>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+      <ResultCollector guiclass="StatGraphVisualizer" testclass="ResultCollector" testname="Aggregate Graph" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+      <ResultCollector guiclass="TableVisualizer" testclass="ResultCollector" testname="View Results in Table" enabled="true">
+        <boolProp name="ResultCollector.error_logging">false</boolProp>
+        <objProp>
+          <name>saveConfig</name>
+          <value class="SampleSaveConfiguration">
+            <time>true</time>
+            <latency>true</latency>
+            <timestamp>true</timestamp>
+            <success>true</success>
+            <label>true</label>
+            <code>true</code>
+            <message>true</message>
+            <threadName>true</threadName>
+            <dataType>true</dataType>
+            <encoding>false</encoding>
+            <assertions>true</assertions>
+            <subresults>true</subresults>
+            <responseData>false</responseData>
+            <samplerData>false</samplerData>
+            <xml>false</xml>
+            <fieldNames>true</fieldNames>
+            <responseHeaders>false</responseHeaders>
+            <requestHeaders>false</requestHeaders>
+            <responseDataOnError>false</responseDataOnError>
+            <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+            <assertionsResultsToSave>0</assertionsResultsToSave>
+            <bytes>true</bytes>
+            <sentBytes>true</sentBytes>
+            <threadCounts>true</threadCounts>
+            <idleTime>true</idleTime>
+            <connectTime>true</connectTime>
+          </value>
+        </objProp>
+        <stringProp name="filename"></stringProp>
+      </ResultCollector>
+      <hashTree/>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

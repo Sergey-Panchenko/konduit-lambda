@@ -1,0 +1,711 @@
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="3.0" xsi:noNamespaceSchemaLocation="oxml.xsd" adVendorName="OneVideo" adaptvFailover="true">
+  <Ad id="a902690_5132564" type="network">
+    <Wrapper>
+      <AdSystem version="1.0">Adap.tv</AdSystem>
+      <VASTAdTagURI>
+        <![CDATA[
+        https://vast.mathtag.com/?exch
+        ]]>
+      </VASTAdTagURI>
+      <Error>
+        <![CDATA[
+        https://log.adaptv.advertising.com/log?event=error&sellerDealId=&buyerDealId=&platformDealId=&lastBid={lastBid}&errNo={errNo}&pricingInfo=G%2F1cd8HSICTSDB0fmIOGQfNBv%2FOgA%2FqIbkXuVC4-Uq9NBqrUnKkQjSPg%2FuFkqlLE&nF={nF}&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&app_storeurl_available=0&app_bundle=&location_available=0&adSpotTime={adSpotTime}&ext_crid=5132564&creativeId=&adomain=ebay.de&adomainId=43903&buyerSeatId=4874&isMatchedUser=0&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456&alephdEnabled=1&isFailoverAd=0&doubleAuction=&errorCode=%5BERRORCODE%5D
+        ]]>
+      </Error>
+      <Impression>
+        <![CDATA[
+        https://log.adaptv.advertising.com/log?3a=adSuccess&51=MuFrcyN7jC0_&50=aUlFcys2%2Fww_&mtpbr=MuFrcyN7jC0_&d={adSourceGroups}&b={adSpotTime}&53=ZX4madbHHCc_&2c=CArsMZei274_&165=unbBn8Zf50g_&157=ZX4madbHHCc_&158=ZX4madbHHCc_&16c=902690&16b=unbBn8Zf50g_&166=unbBn8Zf50g_&169=unbBn8Zf50g_&6c=G%2F1cd8HSICTSDB0fmIOGQfNBv%2FOgA%2FqIbkXuVC4-Uq9NBqrUnKkQjSPg%2FuFkqlLE&28=qUsI3M4M68M_&a8=oOt0lqLFswM_&e5=oOt0lqLFswM_&4b=902690%2C752133%2C638913&5=638913%2C752133&14=902690&11d=3230386637273897&65=preroll&6a=-2&6b=-2&4f=128&ec=1&f6=iCSArrpvL%2FM_&12e=-1.0000&12f=-1.0000&130=-1.0000&131=-1.0000&15c=-1&163=Dhdcd6R5IQ6CFbYIdT2hCw__&164=C%2FT2xSTvE%2Fg_&fa=0&ff=0&103=qUsI3M4M68M_&102=oOt0lqLFswM_&104=oOt0lqLFswM_&auctionId=cacea696-7940-45f4-9923-fd6293990e6f&15e=unbBn8Zf50g_&adSpend=cikpua6Izuw_&10f=1516349761&91=ONLINE_VIDEO&121=3&124=5132564&12a=ebay.de&14e=43903&12c=0&12d=12&optout=0&3=-2&5c=aolemea&5b=2982&18=0&2e=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&2f=aol.de&30=aol.de&31=3&32=0&fd=31529&83=5a6019ad1e64221c84151a0f&82=46080&80=8435115555465037329&f8=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&42=false&8f=640&41=461&21=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&1b=world%2Bnews&77=801172319&67={playerRev}&d6=cacea696-7940-45f4-9923-fd6293990e6f&bf=0&74=ah&d5=1&d8=ip-10-49-192-10&ae=1&8e=<a.viewable>&f0=1&162=80.67&68=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&d7=O2&c4=0&91=ONLINE_VIDEO&45=89.15.172.56&ee=Windows+8.1&b5=<a.active>&144=0&145=1&146=92&147=92&148=100&149=0&14c=75.5376&14d=80.6681&153=69.6780&154=77.8003&115=3&120=0&100={adSeq}&112=1&33=41083456&133=b7e7c941-7532-4676-a5c3-1f66143788f2&136=1&137=1&13d=0&14f=JTW8i8AD2v8GaezyXPB3lA__&nextSeatbid=0&15d=4874&colo=EU&a.afv=-1&a.dfv=-2&168=0&16e=fd4ffec&16f=gayoncMgHis_&13a=1&a.cv=1
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://sb.scorecardresearch.com/b?c1=1&c2=6034979&c3=aolemea&c4=aol.de&c5=090200&c6=638913%2C752133
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://secure-us.imrworldwide.com/cgi-bin/m?ci=us-305284&c6=vc,b01&cg=2982&tl=dav0-%5B0%5D902690&cc=1&rnd=41083456&c3=st,a
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://conversions.adaptv.advertising.com/conversion/wc?adSourceId=638913%2C752133&bidId=902690&afppId=&creativeId=&mediaId=31529&marketplaceId=128&key=aolemea&a.pvt=0&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.pub_id=&nielsen_devid=&a.platformDevice=ONLINE_VIDEO&eov=41083456
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://log.adaptv.advertising.com/log?event=marketTransaction&mrp=aUlFcys2%2Fww_&mtp=MuFrcyN7jC0_&mtsp=unbBn8Zf50g_&mtxp=&mtpbr=MuFrcyN7jC0_&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&sellerDealId=&buyerDealId=&excSupWrapper=&adSpotId=&pet=preroll&pod=-2&position=-2&sellMarketplaceIds=128&iasSegments=536%2C551%2C538%2C870%2C533%2C539%2C543%2C542%2C545%2C534%2C860%2C404%2C546%2C407%2C544%2C540%2C541%2C850%2C537%2C535%2C840&moat_hist_scs=&moat_hist_view=&aud_demo_in_target=iCSArrpvL%2FM_&convr=-1.0000&ctr=-1.0000&cr=-1.0000&vr=-1.0000&modelViewRates=&viewModelId=-1&mtbc=Dhdcd6R5IQ6CFbYIdT2hCw__&mtbt=C%2FT2xSTvE%2Fg_&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456&doubleAuction=
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://idsync.rlcdn.com/396746.gif?partner_uid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://e.visualdna.com/import?id_space=aol_id&partner_user_id=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&r=%2F%2Fpixel.advertising.com%2Fups%2F924%2Fsync%3Fuid%3D%24%7BVDNA_UUID%7D%26_origin%3D0
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://odr.mookie1.com/t/v2/learn?tagid=V2_4134&aolid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://beacon.krxd.net/usermatch.gif?partner=aol&partner_uid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://p.rfihub.com/cm?in=1&pub=15635&userid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://uip.semasio.net/adaptv/1/info?sType=sync&sExtCookieId=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&sInitiator=external
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://aorta.clickagy.com/pixel.gif?advertiser_id=1gt8qx97dqpg&list=11aed5jpn7obnc&ch=111&cm=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://su.addthis.com/red/usync?pid=11170&puid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&url=https%3A%2F%2Fpixel.advertising.com%2Fups%2F50%2Fsync%3Fuid%3D%7B%7Buid%7D%7D%26_origin%3D0
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://sp1.convertro.com/trax/idsync/aol/apid?mapped_id=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&redir=true
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://dpm.demdex.net/ibs:dpid=6835&dpuuid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&redir=https%3A%2F%2Fpixel.advertising.com%2Fups%2F28%2Fsync%3Fuid%3D%24%7BDD_UUID%7D%26_origin%3D0
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://idsync.rlcdn.com/451389.gif?partner_uid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://bcp.crwdcntrl.net/5/c=1777/tp=AOLS/tpid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26?https://pixel.advertising.com/ups/17704/sync?uid=${profile_id}&_origin=0
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://su.addthis.com/red/usync?pid=11170&puid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&url=https%3A%2F%2Fpixel.advertising.com%2Fups%2F19071%2Fsync%3Fuid%3D%7B%7Buid%7D%7D%26_origin%3D0
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://loadm.exelator.com/load/?p=204&g=1000&j=0&buid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://aa.agkn.com/adscores/g.pixel?sid=9212285868&aid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://test.com/?partner_uid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://test.com/?partner_uid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://d.turn.com/r/du/id/L2NzaWQvMS9tcGlkLzMwNTU3ODEz/mpuid/VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://pix04.revsci.net/J13421/a1/0/3/0.302?DM_LOC=aol.com&asiInit=0&matchId=aolum&id=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://ads.scorecardresearch.com/p?c1=9&c2=1000009&c3=2&cs_xi=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://audex.userreport.com/sync/put/aol/empty.gif?aolid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://a01.korrelate.net/a/e/d2us.ads?r=123456789&et=us&ago=127&ao=534&c_uid[aol]=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://cm.g.doubleclick.net/pixel?google_nid=adaptv&google_hm=ODQzNTExNTU1NTQ2NTAzNzMyOQ%3D%3D&google_cm
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[ https://ads.adap.tv/copy_cookies? ]]>
+      </Impression>
+      <Attempt>
+        <![CDATA[
+        https://log.adaptv.advertising.com/log?event=adAttempt&sellerDealId=&buyerDealId=&creativeId=&a.att1=1&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&app_storeurl_available=0&app_bundle=&a.serverquota=67108813&a.actcnt=1602&a.descnt=2147483647&nurl=&location_available=0&user_id_type=3&ext_crid=5132564&adomain=ebay.de&adomainId=43903&a.abMeth=12&platformDealId=&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456&doubleAuction=&nextSeatbid=0&buyerSeatId=4874&isMatchedUser=0
+        ]]>
+      </Attempt>
+      <Creatives>
+        <Creative id="2982-5132564" adId="902690">
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="start">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?3a=progressDisplay0&12a=ebay.de&14e=43903&15d=4874&124=5132564&168=0&5=638913%2C752133&14=902690&11d=3230386637273897&65=preroll&6a=-2&6b=-2&4f=128&optout=0&3=-2&5c=aolemea&5b=2982&18=0&2e=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&2f=aol.de&30=aol.de&31=3&32=0&fd=31529&83=5a6019ad1e64221c84151a0f&82=46080&80=8435115555465037329&f8=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&42=false&8f=640&41=461&21=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&1b=world%2Bnews&77=801172319&67={playerRev}&d6=cacea696-7940-45f4-9923-fd6293990e6f&bf=0&74=ah&d5=1&d8=ip-10-49-192-10&ae=1&8e=<a.viewable>&f0=1&162=80.67&68=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&d7=O2&c4=0&91=ONLINE_VIDEO&45=89.15.172.56&ee=Windows+8.1&b5=<a.active>&144=0&145=1&146=92&147=92&148=100&149=0&14c=75.5376&14d=80.6681&153=69.6780&154=77.8003&115=3&120=0&100={adSeq}&112=1&33=41083456&a.cv=1
+                ]]>
+              </Tracking>
+              <Tracking event="expand">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?event=expandedChange&creativeId=&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456
+                ]]>
+              </Tracking>
+              <Tracking event="firstQuartile">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?3a=progressDisplay25&12a=ebay.de&14e=43903&15d=4874&124=5132564&168=0&5=638913%2C752133&14=902690&11d=3230386637273897&65=preroll&6a=-2&6b=-2&4f=128&optout=0&3=-2&5c=aolemea&5b=2982&18=0&2e=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&2f=aol.de&30=aol.de&31=3&32=0&fd=31529&83=5a6019ad1e64221c84151a0f&82=46080&80=8435115555465037329&f8=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&42=false&8f=640&41=461&21=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&1b=world%2Bnews&77=801172319&67={playerRev}&d6=cacea696-7940-45f4-9923-fd6293990e6f&bf=0&74=ah&d5=1&d8=ip-10-49-192-10&ae=1&8e=<a.viewable>&f0=1&162=80.67&68=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&d7=O2&c4=0&91=ONLINE_VIDEO&45=89.15.172.56&ee=Windows+8.1&b5=<a.active>&144=0&145=1&146=92&147=92&148=100&149=0&14c=75.5376&14d=80.6681&153=69.6780&154=77.8003&115=3&120=0&100={adSeq}&112=1&33=41083456&a.cv=1
+                ]]>
+              </Tracking>
+              <Tracking event="midpoint">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?3a=progressDisplay50&12a=ebay.de&14e=43903&15d=4874&124=5132564&168=0&5=638913%2C752133&14=902690&11d=3230386637273897&65=preroll&6a=-2&6b=-2&4f=128&optout=0&3=-2&5c=aolemea&5b=2982&18=0&2e=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&2f=aol.de&30=aol.de&31=3&32=0&fd=31529&83=5a6019ad1e64221c84151a0f&82=46080&80=8435115555465037329&f8=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&42=false&8f=640&41=461&21=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&1b=world%2Bnews&77=801172319&67={playerRev}&d6=cacea696-7940-45f4-9923-fd6293990e6f&bf=0&74=ah&d5=1&d8=ip-10-49-192-10&ae=1&8e=<a.viewable>&f0=1&162=80.67&68=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&d7=O2&c4=0&91=ONLINE_VIDEO&45=89.15.172.56&ee=Windows+8.1&b5=<a.active>&144=0&145=1&146=92&147=92&148=100&149=0&14c=75.5376&14d=80.6681&153=69.6780&154=77.8003&115=3&120=0&100={adSeq}&112=1&33=41083456&a.cv=1
+                ]]>
+              </Tracking>
+              <Tracking event="thirdQuartile">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?3a=progressDisplay75&12a=ebay.de&14e=43903&15d=4874&124=5132564&168=0&5=638913%2C752133&14=902690&11d=3230386637273897&65=preroll&6a=-2&6b=-2&4f=128&optout=0&3=-2&5c=aolemea&5b=2982&18=0&2e=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&2f=aol.de&30=aol.de&31=3&32=0&fd=31529&83=5a6019ad1e64221c84151a0f&82=46080&80=8435115555465037329&f8=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&42=false&8f=640&41=461&21=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&1b=world%2Bnews&77=801172319&67={playerRev}&d6=cacea696-7940-45f4-9923-fd6293990e6f&bf=0&74=ah&d5=1&d8=ip-10-49-192-10&ae=1&8e=<a.viewable>&f0=1&162=80.67&68=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&d7=O2&c4=0&91=ONLINE_VIDEO&45=89.15.172.56&ee=Windows+8.1&b5=<a.active>&144=0&145=1&146=92&147=92&148=100&149=0&14c=75.5376&14d=80.6681&153=69.6780&154=77.8003&115=3&120=0&100={adSeq}&112=1&33=41083456&a.cv=1
+                ]]>
+              </Tracking>
+              <Tracking event="complete">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?3a=progressDisplay100&12a=ebay.de&14e=43903&15d=4874&124=5132564&168=0&5=638913%2C752133&14=902690&11d=3230386637273897&65=preroll&6a=-2&6b=-2&4f=128&optout=0&3=-2&5c=aolemea&5b=2982&18=0&2e=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&2f=aol.de&30=aol.de&31=3&32=0&fd=31529&83=5a6019ad1e64221c84151a0f&82=46080&80=8435115555465037329&f8=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&42=false&8f=640&41=461&21=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&1b=world%2Bnews&77=801172319&67={playerRev}&d6=cacea696-7940-45f4-9923-fd6293990e6f&bf=0&74=ah&d5=1&d8=ip-10-49-192-10&ae=1&8e=<a.viewable>&f0=1&162=80.67&68=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&d7=O2&c4=0&91=ONLINE_VIDEO&45=89.15.172.56&ee=Windows+8.1&b5=<a.active>&144=0&145=1&146=92&147=92&148=100&149=0&14c=75.5376&14d=80.6681&153=69.6780&154=77.8003&115=3&120=0&100={adSeq}&112=1&33=41083456&91=ONLINE_VIDEO&f6=iCSArrpvL%2FM_&12e=-1.0000&12f=-1.0000&130=-1.0000&131=-1.0000&15c=-1&163=Dhdcd6R5IQ6CFbYIdT2hCw__&164=C%2FT2xSTvE%2Fg_&a.cv=1
+                ]]>
+              </Tracking>
+              <Tracking event="loaded">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?event=adLoaded&creativeId=&ext_crid=5132564&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&adSpotTime={adSpotTime}&creativeLoadTime={creativeLoadTime}&playerInitTime={playerInitTime}&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456&doubleAuction=
+                ]]>
+              </Tracking>
+              <Tracking event="stopped">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?event=stopped&lastBid={lastBid}&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456
+                ]]>
+              </Tracking>
+              <Tracking event="linearChange">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?event=linearChange&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456
+                ]]>
+              </Tracking>
+              <Tracking event="acceptInvitation">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?event=acceptInvitation&creativeId=&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456
+                ]]>
+              </Tracking>
+              <Tracking event="pause">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?event=paused&creativeId=&adomain=ebay.de&adomainId=43903&ext_crid=5132564&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456
+                ]]>
+              </Tracking>
+              <Tracking event="resume">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?event=playing&creativeId=&adomain=ebay.de&adomainId=43903&ext_crid=5132564&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456
+                ]]>
+              </Tracking>
+            </TrackingEvents>
+            <AdParameters>
+              <![CDATA[
+              cd=%7B%22muteButtonEnabled%22%3Afalse%2C%22startMuted%22%3Afalse%2C%22companionSize%22%3A%22AUTO%22%2C%22dataOverride%22%3A%22%22%7D
+              ]]>
+            </AdParameters>
+            <VideoClicks>
+              <ClickTracking>
+                <![CDATA[
+                https://conversions.adaptv.advertising.com/conversion/wc?adSourceId=638913%2C752133&bidId=902690&afppId=&creativeId=&mediaId=31529&marketplaceId=128&key=aolemea&a.pvt=0&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.pub_id=&nielsen_devid=&a.platformDevice=ONLINE_VIDEO&eov=41083456&a.click=true
+                ]]>
+              </ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+      <Extensions>
+        <Extension type="OneSource creative">
+          <CreativeId>
+            <![CDATA[ 4294967295 ]]>
+          </CreativeId>
+        </Extension>
+        <Extension type="adaptv_scripts">
+          <Script resourceType="html" event="impression">
+            <![CDATA[
+            __adaptv_inject_js=function(e,t){var a=document.getElementsByTagName('head')[0]||document.documentElement,n=document.createElement('script'),d=!1;n.type='text/javascript',n.src=e,n.onload=n.onreadystatechange=function(){d||this.readyState&&'loaded'!=this.readyState&&'complete'!=this.readyState||(d=!0,n.onload=n.onreadystatechange=null,t&&t())},a.appendChild(n)};__adaptv_inject_js("//s.update.wtag.adaptv.advertising.com/2/847883/analytics.js?pc=752133&sr=128&si=3230386637273897&di=aol.de&cb=37541241&c3=DE+T2+%28VPAID+Flash%29&ac=0&ti=cacea696-7940-45f4-9923-fd6293990e6f&cr=&ui=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pi=902690&c1=5831&c2=2982&dt=8478831468511901642006&pv=fca8973b-fcf0-11e7-8ad3-02265a6f147b&to=3");
+            ]]>
+          </Script>
+          <Script resourceType="html">
+            <![CDATA[
+            __adaptv_inject_js = function(c, callback) {
+            var b = document.getElementsByTagName("head")[0] || document.documentElement;
+            var a = document.createElement("script");
+            var loaded = false;
+            a.type = "text/javascript";
+            a.src = c;
+            a.onload = a.onreadystatechange = function() {
+            if (!loaded && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
+            loaded = true;
+            a.onload = a.onreadystatechange = null;
+            callback && callback();
+            }
+            };
+            b.appendChild(a);
+            };
+            ]]>
+          </Script>
+        </Extension>
+        <Extension type="ad_chromes">
+          <AdChromes>
+            <AdChrome type="MoatChrome">
+              <![CDATA[ classpath://tv.adap.adchrome.MoatChrome ]]>
+              <orgId>
+                <![CDATA[ 5831 ]]>
+              </orgId>
+              <buyerId>
+                <![CDATA[ 2982 ]]>
+              </buyerId>
+              <campaignId>
+                <![CDATA[ 0 ]]>
+              </campaignId>
+              <adId>
+                <![CDATA[ 902690 ]]>
+              </adId>
+              <marketplaceId>
+                <![CDATA[ 128 ]]>
+              </marketplaceId>
+              <pageUrl>
+                <![CDATA[ aol.de ]]>
+              </pageUrl>
+              <duration>
+                <![CDATA[ 0 ]]>
+              </duration>
+              <params>
+                <![CDATA[
+                &creativeId=&sellerDealId=&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456
+                ]]>
+              </params>
+            </AdChrome>
+          </AdChromes>
+        </Extension>
+        <Extension type="adaptv_iab_viewable_beacons">
+          <Beacon type="iab_viewable">
+            <![CDATA[
+            https://log.adaptv.advertising.com/log?event=iabViewable&creativeId=&sellerDealId=&aud_demo_in_target=iCSArrpvL%2FM_&convr=-1.0000&ctr=-1.0000&cr=-1.0000&vr=-1.0000&modelViewRates=&viewModelId=-1&mtbc=Dhdcd6R5IQ6CFbYIdT2hCw__&mtbt=C%2FT2xSTvE%2Fg_&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456&doubleAuction=
+            ]]>
+          </Beacon>
+          <Beacon type="iab_detection_started">
+            <![CDATA[
+            https://log.adaptv.advertising.com/log?event=iabDetectionStarted&creativeId=&sellerDealId=&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456&doubleAuction=
+            ]]>
+          </Beacon>
+          <Beacon type="iab_detection_failed">
+            <![CDATA[
+            https://log.adaptv.advertising.com/log?event=iabDetectionFailed&creativeId=&sellerDealId=&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456&doubleAuction=
+            ]]>
+          </Beacon>
+        </Extension>
+        <Extension type="one_video_adomain">
+          <![CDATA[ ebay.de ]]>
+        </Extension>
+        <Extension type="one_video_custom_tracking_beacons">
+          <Beacon type="clickThru">
+            <![CDATA[
+            https://log.adaptv.advertising.com/log?3a=click&d3={a.cPos}&6c=G%2F1cd8HSICTSDB0fmIOGQfNBv%2FOgA%2FqIbkXuVC4-Uq9NBqrUnKkQjSPg%2FuFkqlLE&5=638913%2C752133&14=902690&11d=3230386637273897&65=preroll&6a=-2&6b=-2&4f=128&auctionId=cacea696-7940-45f4-9923-fd6293990e6f&91=ONLINE_VIDEO&12a=ebay.de&14e=43903&15d=4874&124=5132564&168=0&optout=0&3=-2&5c=aolemea&5b=2982&18=0&2e=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&2f=aol.de&30=aol.de&31=3&32=0&fd=31529&83=5a6019ad1e64221c84151a0f&82=46080&80=8435115555465037329&f8=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&42=false&8f=640&41=461&21=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&1b=world%2Bnews&77=801172319&67={playerRev}&d6=cacea696-7940-45f4-9923-fd6293990e6f&bf=0&74=ah&d5=1&d8=ip-10-49-192-10&ae=1&8e=<a.viewable>&f0=1&162=80.67&68=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&d7=O2&c4=0&91=ONLINE_VIDEO&45=89.15.172.56&ee=Windows+8.1&b5=<a.active>&144=0&145=1&146=92&147=92&148=100&149=0&14c=75.5376&14d=80.6681&153=69.6780&154=77.8003&115=3&120=0&100={adSeq}&112=1&33=41083456&f6=iCSArrpvL%2FM_&12e=-1.0000&12f=-1.0000&130=-1.0000&131=-1.0000&15c=-1&163=Dhdcd6R5IQ6CFbYIdT2hCw__&164=C%2FT2xSTvE%2Fg_&a.cv=1
+            ]]>
+          </Beacon>
+          <Beacon type="companionDisplay">
+            <![CDATA[
+            //log.adaptv.advertising.com/log?event=companionDisplay&sellerDealId=&creativeId=&type=gif&compSize={compSize}&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456
+            ]]>
+          </Beacon>
+          <Beacon type="companionClick">
+            <![CDATA[
+            https://log.adaptv.advertising.com/log?event=companionClick&sellerDealId=&creativeId=&rUrl={rUrl}&adSourceId=638913%2C752133&bidId=902690&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=2982&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=41083456
+            ]]>
+          </Beacon>
+        </Extension>
+      </Extensions>
+    </Wrapper>
+  </Ad>
+  <Ad id="a774643_86933258" type="network">
+    <Wrapper>
+      <AdSystem version="1.0">Adap.tv</AdSystem>
+      <VASTAdTagURI>
+        <![CDATA[
+        https://fra1-ib.adnxs.com/ab
+        ]]>
+      </VASTAdTagURI>
+      <Error>
+        <![CDATA[
+        https://log.adaptv.advertising.com/log?event=error&sellerDealId=&buyerDealId=&platformDealId=&lastBid={lastBid}&errNo={errNo}&pricingInfo=G%2F1cd8HSICTSDB0fmIOGQfNBv%2FOgA%2FqIbkXuVC4-Uq98E%2FcxRt%2F4qkwx4I0tXYDW&nF={nF}&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&app_storeurl_available=0&app_bundle=&location_available=0&adSpotTime={adSpotTime}&ext_crid=86933258&creativeId=&adomain=kfc.com&adomainId=107&buyerSeatId=1886&isMatchedUser=0&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158&alephdEnabled=1&isFailoverAd=1&doubleAuction=&errorCode=%5BERRORCODE%5D
+        ]]>
+      </Error>
+      <Impression>
+        <![CDATA[
+        https://log.adaptv.advertising.com/log?3a=adSuccess&51=unbBn8Zf50g_&50=aUlFcys2%2Fww_&mtpbr=unbBn8Zf50g_&d={adSourceGroups}&b={adSpotTime}&53=ZX4madbHHCc_&2c=E%2F2Z8C2T6Ro_&165=aUlFcys2%2Fww_&157=ZX4madbHHCc_&158=ZX4madbHHCc_&16c=774643&16b=aUlFcys2%2Fww_&166=aUlFcys2%2Fww_&169=aUlFcys2%2Fww_&6c=G%2F1cd8HSICTSDB0fmIOGQfNBv%2FOgA%2FqIbkXuVC4-Uq98E%2FcxRt%2F4qkwx4I0tXYDW&28=qUsI3M4M68M_&a8=oOt0lqLFswM_&e5=oOt0lqLFswM_&4b=774643%2C752133%2C638913&5=638913%2C752133&14=774643&11d=3230386637273897&65=preroll&6a=-2&6b=-2&4f=128&ec=1&f6=iCSArrpvL%2FM_&12e=-1.0000&12f=-1.0000&130=-1.0000&131=-1.0000&15c=-1&163=nSD9S7iOK-aCFbYIdT2hCw__&164=5cF-AQrdSok_&fa=0&ff=0&103=qUsI3M4M68M_&102=oOt0lqLFswM_&104=oOt0lqLFswM_&auctionId=cacea696-7940-45f4-9923-fd6293990e6f&15e=aUlFcys2%2Fww_&adSpend=XI0e7Fa7l30_&10f=1516349761&91=ONLINE_VIDEO&121=3&124=86933258&12a=kfc.com&14e=107&12c=0&12d=12&optout=0&3=-2&5c=aolemea&5b=11164&18=0&2e=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&2f=aol.de&30=aol.de&31=3&32=0&fd=31529&83=5a6019ad1e64221c84151a0f&82=46080&80=8435115555465037329&f8=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&42=false&8f=640&41=461&21=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&1b=world%2Bnews&77=801172319&67={playerRev}&d6=cacea696-7940-45f4-9923-fd6293990e6f&bf=0&74=ah&d5=1&d8=ip-10-49-192-10&ae=1&8e=<a.viewable>&f0=1&162=80.67&68=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&d7=O2&c4=0&91=ONLINE_VIDEO&45=89.15.172.56&ee=Windows+8.1&b5=<a.active>&144=0&145=1&146=92&147=92&148=100&149=0&14c=75.5376&14d=80.6681&153=69.6780&154=77.8003&115=3&120=0&100={adSeq}&112=1&33=2388158&133=b7e7c941-7532-4676-a5c3-1f66143788f2&136=1&137=1&13d=1&14f=JTW8i8AD2v8GaezyXPB3lA__&nextSeatbid=0&15d=1886&colo=EU&a.afv=-1&a.dfv=-2&168=0&16e=fd4ffec&16f=gayoncMgHis_&13a=1&a.cv=1&rUrl=
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[ https://ib.adnxs.com/nop ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://sb.scorecardresearch.com/b?c1=1&c2=6034979&c3=aolemea&c4=aol.de&c5=090200&c6=638913%2C752133
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://secure-us.imrworldwide.com/cgi-bin/m?ci=us-305284&c6=vc,b01&cg=11164&tl=dav0-%5B0%5D774643&cc=1&rnd=2388158&c3=st,a
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://conversions.adaptv.advertising.com/conversion/wc?adSourceId=638913%2C752133&bidId=774643&afppId=&creativeId=&mediaId=31529&marketplaceId=128&key=aolemea&a.pvt=0&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.pub_id=&nielsen_devid=&a.platformDevice=ONLINE_VIDEO&eov=2388158
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://log.adaptv.advertising.com/log?event=marketTransaction&mrp=aUlFcys2%2Fww_&mtp=unbBn8Zf50g_&mtsp=aUlFcys2%2Fww_&mtxp=&mtpbr=unbBn8Zf50g_&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&sellerDealId=&buyerDealId=&excSupWrapper=&adSpotId=&pet=preroll&pod=-2&position=-2&sellMarketplaceIds=128&iasSegments=536%2C551%2C538%2C870%2C533%2C539%2C543%2C542%2C545%2C534%2C860%2C404%2C546%2C407%2C544%2C540%2C541%2C850%2C537%2C535%2C840&moat_hist_scs=&moat_hist_view=&aud_demo_in_target=iCSArrpvL%2FM_&convr=-1.0000&ctr=-1.0000&cr=-1.0000&vr=-1.0000&modelViewRates=&viewModelId=-1&mtbc=nSD9S7iOK-aCFbYIdT2hCw__&mtbt=5cF-AQrdSok_&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158&doubleAuction=
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://idsync.rlcdn.com/396746.gif?partner_uid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://e.visualdna.com/import?id_space=aol_id&partner_user_id=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&r=%2F%2Fpixel.advertising.com%2Fups%2F924%2Fsync%3Fuid%3D%24%7BVDNA_UUID%7D%26_origin%3D0
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://odr.mookie1.com/t/v2/learn?tagid=V2_4134&aolid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://beacon.krxd.net/usermatch.gif?partner=aol&partner_uid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://p.rfihub.com/cm?in=1&pub=15635&userid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://uip.semasio.net/adaptv/1/info?sType=sync&sExtCookieId=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&sInitiator=external
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://aorta.clickagy.com/pixel.gif?advertiser_id=1gt8qx97dqpg&list=11aed5jpn7obnc&ch=111&cm=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://su.addthis.com/red/usync?pid=11170&puid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&url=https%3A%2F%2Fpixel.advertising.com%2Fups%2F50%2Fsync%3Fuid%3D%7B%7Buid%7D%7D%26_origin%3D0
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://sp1.convertro.com/trax/idsync/aol/apid?mapped_id=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&redir=true
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://dpm.demdex.net/ibs:dpid=6835&dpuuid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&redir=https%3A%2F%2Fpixel.advertising.com%2Fups%2F28%2Fsync%3Fuid%3D%24%7BDD_UUID%7D%26_origin%3D0
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://idsync.rlcdn.com/451389.gif?partner_uid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://bcp.crwdcntrl.net/5/c=1777/tp=AOLS/tpid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26?https://pixel.advertising.com/ups/17704/sync?uid=${profile_id}&_origin=0
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://su.addthis.com/red/usync?pid=11170&puid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&url=https%3A%2F%2Fpixel.advertising.com%2Fups%2F19071%2Fsync%3Fuid%3D%7B%7Buid%7D%7D%26_origin%3D0
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://loadm.exelator.com/load/?p=204&g=1000&j=0&buid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://aa.agkn.com/adscores/g.pixel?sid=9212285868&aid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://test.com/?partner_uid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://test.com/?partner_uid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://d.turn.com/r/du/id/L2NzaWQvMS9tcGlkLzMwNTU3ODEz/mpuid/VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://pix04.revsci.net/J13421/a1/0/3/0.302?DM_LOC=aol.com&asiInit=0&matchId=aolum&id=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://ads.scorecardresearch.com/p?c1=9&c2=1000009&c3=2&cs_xi=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://audex.userreport.com/sync/put/aol/empty.gif?aolid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://a01.korrelate.net/a/e/d2us.ads?r=123456789&et=us&ago=127&ao=534&c_uid[aol]=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[
+        https://cm.g.doubleclick.net/pixel?google_nid=adaptv&google_hm=ODQzNTExNTU1NTQ2NTAzNzMyOQ%3D%3D&google_cm
+        ]]>
+      </Impression>
+      <Impression>
+        <![CDATA[ https://ads.adap.tv/copy_cookies? ]]>
+      </Impression>
+      <Attempt>
+        <![CDATA[
+        https://log.adaptv.advertising.com/log?event=adAttempt&sellerDealId=&buyerDealId=&creativeId=&a.att1=0&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&app_storeurl_available=0&app_bundle=&a.serverquota=671088
+        ]]>
+        <![CDATA[
+        33&a.actcnt=966&a.descnt=2147483647&nurl=&location_available=0&user_id_type=3&ext_crid=86933258&adomain=kfc.com&adomainId=107&a.abMeth=12&platformDealId=&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158&doubleAuction=&nextSeatbid=0&buyerSeatId=1886&isMatchedUser=0
+        ]]>
+      </Attempt>
+      <Creatives>
+        <Creative id="11164-86933258" adId="774643">
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="start">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?3a=progressDisplay0&12a=kfc.com&14e=107&15d=1886&124=86933258&168=0&5=638913%2C752133&14=774643&11d=3230386637273897&65=preroll&6a=-2&6b=-2&4f=128&optout=0&3=-2&5c=aolemea&5b=11164&18=0&2e=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&2f=aol.de&30=aol.de&31=3&32=0&fd=31529&83=5a6019ad1e64221c84151a0f&82=46080&80=8435115555465037329&f8=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&42=false&8f=640&41=461&21=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&1b=world%2Bnews&77=801172319&67={playerRev}&d6=cacea696-7940-45f4-9923-fd6293990e6f&bf=0&74=ah&d5=1&d8=ip-10-49-192-10&ae=1&8e=<a.viewable>&f0=1&162=80.67&68=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&d7=O2&c4=0&91=ONLINE_VIDEO&45=89.15.172.56&ee=Windows+8.1&b5=<a.active>&144=0&145=1&146=92&147=92&148=100&149=0&14c=75.5376&14d=80.6681&153=69.6780&154=77.8003&115=3&120=0&100={adSeq}&112=1&33=2388158&a.cv=1
+                ]]>
+              </Tracking>
+              <Tracking event="expand">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?event=expandedChange&creativeId=&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158
+                ]]>
+              </Tracking>
+              <Tracking event="firstQuartile">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?3a=progressDisplay25&12a=kfc.com&14e=107&15d=1886&124=86933258&168=0&5=638913%2C752133&14=774643&11d=3230386637273897&65=preroll&6a=-2&6b=-2&4f=128&optout=0&3=-2&5c=aolemea&5b=11164&18=0&2e=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&2f=aol.de&30=aol.de&31=3&32=0&fd=31529&83=5a6019ad1e64221c84151a0f&82=46080&80=8435115555465037329&f8=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&42=false&8f=640&41=461&21=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&1b=world%2Bnews&77=801172319&67={playerRev}&d6=cacea696-7940-45f4-9923-fd6293990e6f&bf=0&74=ah&d5=1&d8=ip-10-49-192-10&ae=1&8e=<a.viewable>&f0=1&162=80.67&68=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&d7=O2&c4=0&91=ONLINE_VIDEO&45=89.15.172.56&ee=Windows+8.1&b5=<a.active>&144=0&145=1&146=92&147=92&148=100&149=0&14c=75.5376&14d=80.6681&153=69.6780&154=77.8003&115=3&120=0&100={adSeq}&112=1&33=2388158&a.cv=1
+                ]]>
+              </Tracking>
+              <Tracking event="midpoint">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?3a=progressDisplay50&12a=kfc.com&14e=107&15d=1886&124=86933258&168=0&5=638913%2C752133&14=774643&11d=3230386637273897&65=preroll&6a=-2&6b=-2&4f=128&optout=0&3=-2&5c=aolemea&5b=11164&18=0&2e=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&2f=aol.de&30=aol.de&31=3&32=0&fd=31529&83=5a6019ad1e64221c84151a0f&82=46080&80=8435115555465037329&f8=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&42=false&8f=640&41=461&21=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&1b=world%2Bnews&77=801172319&67={playerRev}&d6=cacea696-7940-45f4-9923-fd6293990e6f&bf=0&74=ah&d5=1&d8=ip-10-49-192-10&ae=1&8e=<a.viewable>&f0=1&162=80.67&68=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&d7=O2&c4=0&91=ONLINE_VIDEO&45=89.15.172.56&ee=Windows+8.1&b5=<a.active>&144=0&145=1&146=92&147=92&148=100&149=0&14c=75.5376&14d=80.6681&153=69.6780&154=77.8003&115=3&120=0&100={adSeq}&112=1&33=2388158&a.cv=1
+                ]]>
+              </Tracking>
+              <Tracking event="thirdQuartile">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?3a=progressDisplay75&12a=kfc.com&14e=107&15d=1886&124=86933258&168=0&5=638913%2C752133&14=774643&11d=3230386637273897&65=preroll&6a=-2&6b=-2&4f=128&optout=0&3=-2&5c=aolemea&5b=11164&18=0&2e=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&2f=aol.de&30=aol.de&31=3&32=0&fd=31529&83=5a6019ad1e64221c84151a0f&82=46080&80=8435115555465037329&f8=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&42=false&8f=640&41=461&21=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&1b=world%2Bnews&77=801172319&67={playerRev}&d6=cacea696-7940-45f4-9923-fd6293990e6f&bf=0&74=ah&d5=1&d8=ip-10-49-192-10&ae=1&8e=<a.viewable>&f0=1&162=80.67&68=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&d7=O2&c4=0&91=ONLINE_VIDEO&45=89.15.172.56&ee=Windows+8.1&b5=<a.active>&144=0&145=1&146=92&147=92&148=100&149=0&14c=75.5376&14d=80.6681&153=69.6780&154=77.8003&115=3&120=0&100={adSeq}&112=1&33=2388158&a.cv=1
+                ]]>
+              </Tracking>
+              <Tracking event="complete">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?3a=progressDisplay100&12a=kfc.com&14e=107&15d=1886&124=86933258&168=0&5=638913%2C752133&14=774643&11d=3230386637273897&65=preroll&6a=-2&6b=-2&4f=128&optout=0&3=-2&5c=aolemea&5b=11164&18=0&2e=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&2f=aol.de&30=aol.de&31=3&32=0&fd=31529&83=5a6019ad1e64221c84151a0f&82=46080&80=8435115555465037329&f8=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&42=false&8f=640&41=461&21=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&1b=world%2Bnews&77=801172319&67={playerRev}&d6=cacea696-7940-45f4-9923-fd6293990e6f&bf=0&74=ah&d5=1&d8=ip-10-49-192-10&ae=1&8e=<a.viewable>&f0=1&162=80.67&68=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&d7=O2&c4=0&91=ONLINE_VIDEO&45=89.15.172.56&ee=Windows+8.1&b5=<a.active>&144=0&145=1&146=92&147=92&148=100&149=0&14c=75.5376&14d=80.6681&153=69.6780&154=77.8003&115=3&120=0&100={adSeq}&112=1&33=2388158&91=ONLINE_VIDEO&f6=iCSArrpvL%2FM_&12e=-1.0000&12f=-1.0000&130=-1.0000&131=-1.0000&15c=-1&163=nSD9S7iOK-aCFbYIdT2hCw__&164=5cF-AQrdSok_&a.cv=1
+                ]]>
+              </Tracking>
+              <Tracking event="loaded">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?event=adLoaded&creativeId=&ext_crid=86933258&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&adSpotTime={adSpotTime}&creativeLoadTime={creativeLoadTime}&playerInitTime={playerInitTime}&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158&doubleAuction=
+                ]]>
+              </Tracking>
+              <Tracking event="stopped">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?event=stopped&lastBid={lastBid}&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158
+                ]]>
+              </Tracking>
+              <Tracking event="linearChange">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?event=linearChange&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158
+                ]]>
+              </Tracking>
+              <Tracking event="acceptInvitation">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?event=acceptInvitation&creativeId=&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158
+                ]]>
+              </Tracking>
+              <Tracking event="pause">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?event=paused&creativeId=&adomain=kfc.com&adomainId=107&ext_crid=86933258&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158
+                ]]>
+              </Tracking>
+              <Tracking event="resume">
+                <![CDATA[
+                https://log.adaptv.advertising.com/log?event=playing&creativeId=&adomain=kfc.com&adomainId=107&ext_crid=86933258&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158
+                ]]>
+              </Tracking>
+            </TrackingEvents>
+            <AdParameters>
+              <![CDATA[
+              cd=%7B%22muteButtonEnabled%22%3Afalse%2C%22startMuted%22%3Afalse%2C%22companionSize%22%3A%22AUTO%22%2C%22dataOverride%22%3A%22%22%7D
+              ]]>
+            </AdParameters>
+            <VideoClicks>
+              <ClickTracking>
+                <![CDATA[
+                https://conversions.adaptv.advertising.com/conversion/wc?adSourceId=638913%2C752133&bidId=774643&afppId=&creativeId=&mediaId=31529&marketplaceId=128&key=aolemea&a.pvt=0&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.pub_id=&nielsen_devid=&a.platformDevice=ONLINE_VIDEO&eov=2388158&a.click=true
+                ]]>
+              </ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+      <Extensions>
+        <Extension type="OneSource creative">
+          <CreativeId>
+            <![CDATA[ 4294967295 ]]>
+          </CreativeId>
+        </Extension>
+        <Extension type="adaptv_scripts">
+          <Script resourceType="html" event="impression">
+            <![CDATA[
+            __adaptv_inject_js=function(e,t){var a=document.getElementsByTagName('head')[0]||document.documentElement,n=document.createElement('script'),d=!1;n.type='text/javascript',n.src=e,n.onload=n.onreadystatechange=function(){d||this.readyState&&'loaded'!=this.readyState&&'complete'!=this.readyState||(d=!0,n.onload=n.onreadystatechange=null,t&&t())},a.appendChild(n)};__adaptv_inject_js("//s.update.wtag.adaptv.advertising.com/2/847883/analytics.js?pc=752133&sr=128&si=3230386637273897&di=aol.de&cb=63785247&c3=DE+T2+%28VPAID+Flash%29&ac=0&ti=cacea696-7940-45f4-9923-fd6293990e6f&cr=&ui=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pi=774643&c1=5831&c2=11164&dt=8478831468511901642006&pv=fca8973b-fcf0-11e7-8ad3-02265a6f147b&to=3");
+            ]]>
+          </Script>
+          <Script resourceType="html">
+            <![CDATA[
+            __adaptv_inject_js = function(c, callback) {
+            var b = document.getElementsByTagName("head")[0] || document.documentElement;
+            var a = document.createElement("script");
+            var loaded = false;
+            a.type = "text/javascript";
+            a.src = c;
+            a.onload = a.onreadystatechange = function() {
+            if (!loaded && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) {
+            loaded = true;
+            a.onload = a.onreadystatechange = null;
+            callback && callback();
+            }
+            };
+            b.appendChild(a);
+            };
+            ]]>
+          </Script>
+        </Extension>
+        <Extension type="ad_chromes">
+          <AdChromes>
+            <AdChrome type="MoatChrome">
+              <![CDATA[ classpath://tv.adap.adchrome.MoatChrome ]]>
+              <orgId>
+                <![CDATA[ 5831 ]]>
+              </orgId>
+              <buyerId>
+                <![CDATA[ 11164 ]]>
+              </buyerId>
+              <campaignId>
+                <![CDATA[ 0 ]]>
+              </campaignId>
+              <adId>
+                <![CDATA[ 774643 ]]>
+              </adId>
+              <marketplaceId>
+                <![CDATA[ 128 ]]>
+              </marketplaceId>
+              <pageUrl>
+                <![CDATA[ aol.de ]]>
+              </pageUrl>
+              <duration>
+                <![CDATA[ 0 ]]>
+              </duration>
+              <params>
+                <![CDATA[
+                &creativeId=&sellerDealId=&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158
+                ]]>
+              </params>
+            </AdChrome>
+          </AdChromes>
+        </Extension>
+        <Extension type="adaptv_iab_viewable_beacons">
+          <Beacon type="iab_viewable">
+            <![CDATA[
+            https://log.adaptv.advertising.com/log?event=iabViewable&creativeId=&sellerDealId=&aud_demo_in_target=iCSArrpvL%2FM_&convr=-1.0000&ctr=-1.0000&cr=-1.0000&vr=-1.0000&modelViewRates=&viewModelId=-1&mtbc=nSD9S7iOK-aCFbYIdT2hCw__&mtbt=5cF-AQrdSok_&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158&doubleAuction=
+            ]]>
+          </Beacon>
+          <Beacon type="iab_detection_started">
+            <![CDATA[
+            https://log.adaptv.advertising.com/log?event=iabDetectionStarted&creativeId=&sellerDealId=&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158&doubleAuction=
+            ]]>
+          </Beacon>
+          <Beacon type="iab_detection_failed">
+            <![CDATA[
+            https://log.adaptv.advertising.com/log?event=iabDetectionFailed&creativeId=&sellerDealId=&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158&doubleAuction=
+            ]]>
+          </Beacon>
+        </Extension>
+        <Extension type="one_video_adomain">
+          <![CDATA[ kfc.com ]]>
+        </Extension>
+        <Extension type="one_video_custom_tracking_beacons">
+          <Beacon type="clickThru">
+            <![CDATA[
+            https://log.adaptv.advertising.com/log?3a=click&d3={a.cPos}&6c=G%2F1cd8HSICTSDB0fmIOGQfNBv%2FOgA%2FqIbkXuVC4-Uq98E%2FcxRt%2F4qkwx4I0tXYDW&5=638913%2C752133&14=774643&11d=3230386637273897&65=preroll&6a=-2&6b=-2&4f=128&auctionId=cacea696-7940-45f4-9923-fd6293990e6f&91=ONLINE_VIDEO&12a=kfc.com&14e=107&15d=1886&124=86933258&168=0&optout=0&3=-2&5c=aolemea&5b=11164&18=0&2e=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&2f=aol.de&30=aol.de&31=3&32=0&fd=31529&83=5a6019ad1e64221c84151a0f&82=46080&80=8435115555465037329&f8=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&42=false&8f=640&41=461&21=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&1b=world%2Bnews&77=801172319&67={playerRev}&d6=cacea696-7940-45f4-9923-fd6293990e6f&bf=0&74=ah&d5=1&d8=ip-10-49-192-10&ae=1&8e=<a.viewable>&f0=1&162=80.67&68=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&d7=O2&c4=0&91=ONLINE_VIDEO&45=89.15.172.56&ee=Windows+8.1&b5=<a.active>&144=0&145=1&146=92&147=92&148=100&149=0&14c=75.5376&14d=80.6681&153=69.6780&154=77.8003&115=3&120=0&100={adSeq}&112=1&33=2388158&f6=iCSArrpvL%2FM_&12e=-1.0000&12f=-1.0000&130=-1.0000&131=-1.0000&15c=-1&163=nSD9S7iOK-aCFbYIdT2hCw__&164=5cF-AQrdSok_&a.cv=1
+            ]]>
+          </Beacon>
+          <Beacon type="companionDisplay">
+            <![CDATA[
+            //log.adaptv.advertising.com/log?event=companionDisplay&sellerDealId=&creativeId=&type=gif&compSize={compSize}&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158
+            ]]>
+          </Beacon>
+          <Beacon type="companionClick">
+            <![CDATA[
+            https://log.adaptv.advertising.com/log?event=companionClick&sellerDealId=&creativeId=&rUrl={rUrl}&adSourceId=638913%2C752133&bidId=774643&afppId=&adSourceMediaId=3230386637273897&adSpotId=&pet=preroll&pod=-2&position=-2&marketplaceId=128&optout=0&adPlanId=-2&adaptag=&key=aolemea&buyerId=11164&campaignId=0&pageUrl=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&adapDetD=aol.de&sellRepD=aol.de&urlDetMeth=3&targDSellRep=0&mediaId=31529&zid=&url=&id=5a6019ad1e64221c84151a0f&duration=46080&a.geostrings=&uid=8435115555465037329&apid=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&pid=&htmlEnabled=false&width=640&height=461&context=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&categories=world%2Bnews&sessionId=&serverRev=801172319&playerRev={playerRev}&a.rid=cacea696-7940-45f4-9923-fd6293990e6f&a.beid=&a.cluster=0&rtype=ah&ext_id=&a.ssc=1&a.asn=ip-10-49-192-10&a.profile_id=1&p.vw.viewable=<a.viewable>&p.vw.viewableOpportunity=1&p.vw.viewableHistorical=80.67&p.vw.psize=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&a.sdk=O2&a.sdkType=&pi.sdk=&pi.sdkType=&a.appReq=0&a.platformDevice=ONLINE_VIDEO&ipAddressOverride=89.15.172.56&a.platformOs=Windows+8.1&p.vw.active=<a.active>&a.rtbexch=&pi.sideview=0&pi.flashonpage=1&pi.mvoa=92&pi.avoa=92&pi.sound=100&pi.autoInitiation=0&esVr=75.5376&esMvmr=80.6681&sadVr=69.6780&sadMvmr=77.8003&p.vw.geometric=&p.vw.framerate=&a.pub_id=&device_id_status=3&a.ts=0&a.adSeq={adSeq}&isHttps=1&pubSettingId=&eov=2388158
+            ]]>
+          </Beacon>
+        </Extension>
+      </Extensions>
+    </Wrapper>
+  </Ad>
+  <Extensions>
+    <Extension type="one_video_feacons">
+      <Feacons>
+        <Feacon type="prefilled_opportunity">
+          <![CDATA[
+          https://log.adaptv.advertising.com/log?3a=prefilledOpportunity&5=638913%2C752133&14=774643&11d=3230386637273897&65=preroll&6a=-2&6b=-2&4f=128&85=Apple+nutzt+US-Steuerreform+%E2%80%93+Milliardeninvestitionen+angek%C3%BCndigt&f6=iCSArrpvL%2FM_&12e=-1.0000&12f=-1.0000&130=-1.0000&131=-1.0000&15c=-1&163=nSD9S7iOK-aCFbYIdT2hCw__&164=5cF-AQrdSok_&optout=0&3=-2&5c=aolemea&5b=11164&18=0&2e=www.aol.de%2F2018%2F01%2F18%2Fus-steuerreform-apple-holt-auslandsmilliarden-in-die-usa%2F%3Ficid%3Dmaing-grid7%7Cmain5%7Cdl1%7Cdl_lnk1%26plid%3D863566349_uk&2f=aol.de&30=aol.de&31=3&32=0&fd=31529&83=5a6019ad1e64221c84151a0f&82=46080&80=8435115555465037329&f8=VB94a8a85a-858d-11e7-a9de-0ef0dff88a26&42=false&8f=640&41=461&21=transId%3D803a9c7d-3bf3-4c76-9257-e15d5ae6ccc8%2CstudioId%3D55b28c321146fb18d08afea6%2Cdomain%3Dwww.aol.de%2Csect%3D%2C%2Cpid%3D58caa80125fd036892a61e70%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DGREEN%2Cvp%3D1%2Cat%3D1%2Cs%3D0%2Csd%3D100%2Css%3Dde.aolcomnews&1b=world%2Bnews&77=801172319&67={playerRev}&d6=cacea696-7940-45f4-9923-fd6293990e6f&bf=0&74=ah&d5=1&d8=ip-10-49-192-10&ae=1&8e=<a.viewable>&f0=1&162=80.67&68=3&ctx.plid=58caa80125fd036892a61e70&ctx.container_height=461&ctx.container_width=640&d7=O2&c4=0&91=ONLINE_VIDEO&45=89.15.172.56&ee=Windows+8.1&b5=<a.active>&144=0&145=1&146=92&147=92&148=100&149=0&14c=75.5376&14d=80.6681&153=69.6780&154=77.8003&115=3&120=0&100={adSeq}&112=1&33=2388158&a.cv=1
+          ]]>
+        </Feacon>
+      </Feacons>
+    </Extension>
+  </Extensions>
+</VAST>

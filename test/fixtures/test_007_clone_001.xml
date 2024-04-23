@@ -1,0 +1,45 @@
+<VAST version="3.0">
+    <Ad>
+        <InLine>
+            <AdSystem>Ad System</AdSystem>
+            <AdTitle>test 007 clone 001</AdTitle>
+            <Description>Without delivery</Description>
+            <Impression><![CDATA[http://myTrackingURL/wrapper/impression]]></Impression>
+            <Creatives>
+                <Creative>
+                    <Linear>
+                        <Duration>00:00:30</Duration>
+                        <AdParameters>
+                        <![CDATA[
+                            {"videos":[
+                                {"url":"//s3.amazonaws.com/demo.jwplayer.com/player-demos/assets/preroll.mp4","mimetype":"video/mp4"}],
+                            "attributes": {
+                                "desiredBitrate" : 256,
+                                "duration" : 30,
+                                "expanded" : false,
+                                "height" : 0,
+                                "icons" : "",
+                                "linear" : true,
+                                "remainingTime" : 30,
+                                "skippableState" : true,
+                                "viewMode" : "normal",
+                                "width" : 0,
+                                "volume" : 1.0
+                                }
+                            }
+                            ]]>
+                        </AdParameters>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" width="640" height="360" apiFramework="VPAID" type="application/javascript">
+                                <![CDATA[ https://s3.us-east-2.amazonaws.com/kme-vast-sample/vast_with_vpaid_clones/vpaid_clones/vpaid-2-player-test_clone_001.js]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
+
+
+

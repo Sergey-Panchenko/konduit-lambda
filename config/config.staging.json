@@ -1,0 +1,22 @@
+{
+  "AB_TESTING_ENABLED": true,
+  "ADPOD_MAXIMUM_ADS_TO_PROCESS": 10,
+  "ADPOD_NUMBER_OF_ADS_TO_PROCESS": 2,
+  "CONTROL_GROUP_WRAPPER_SIZE": 1,
+  "DATADOG_AGENT_HOST": "127.0.0.1",
+  "DATADOG_AGENT_PORT": 8125,
+  "TRACKING_BROWSERS": "firefox,edge,ie,safari",
+  "KONDUIT_PORT": 3333,
+  "LOGSTASH_HOST": "10.1.3.226",
+  "LOGSTASH_PORT": 5000,
+  "LOG_LEVEL": "debug",
+  "LOG_RATE": 1,
+  "PIXEL_TRACKER_BASE_URL": "http://s.pixsrvcs.com",
+  "PIXEL_TRACKER_ERROR_URL": "http://s.pixsrvcs.com/trk.gif",
+  "PIXEL_TRACKER_EVENT_URL": "http://s.pixsrvcs.com/trk.gif",
+  "VAST_REQUEST_TIMEOUT": 3000,
+  "VAST_RESPONSE_COMPRESSION_LEVEL": -1,
+  "VAST_SCHEMA": "./schema/vast/supported/vast_v24_20190219.xsd",
+  "VAST_WRAPPER_NESTING_LIMIT": 10,
+  "VPAID_WRAPPER_URL": "https://static.konduit.me/vpaid-wrapper/4.10.0-b-stage/vpaid.js"
+}

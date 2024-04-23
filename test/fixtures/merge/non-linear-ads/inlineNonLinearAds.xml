@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<VAST version="2.0">
+  <Ad id="inline.xml">
+    <InLine>
+      <AdSystem>Test</AdSystem>
+      <AdTitle>
+        Test Title
+      </AdTitle>
+      <Impression>
+        https://VAST/Ad/inline.xml/Wrapper/Creatives/Creative/Impression
+      </Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <Duration>00:00:15</Duration>
+            <VideoClicks>
+              <ClickThrough>
+                https://VAST/Ad/inline.xml/Wrapper/Creatives/Creative/1/Linear/ClickThrough
+              </ClickThrough>
+              <ClickTracking>
+                https://VAST/Ad/inline.xml/Wrapper/Creatives/Creative/1/Linear/ClickTracking
+              </ClickTracking>
+              <CustomClick>
+                https://VAST/Ad/inline.xml/Wrapper/Creatives/Creative/1/Linear/CustomClick
+              </CustomClick>
+            </VideoClicks>
+            <AdParameters>
+              <![CDATA[param=inline_param]]>
+            </AdParameters>
+            <MediaFiles>
+              <MediaFile delivery="progressive" width="16" height="9" type="application/javascript"
+                         apiFramework="VPAID">
+                https://VAST/Ad/inline.xml/Wrapper/Creatives/Creative/Linear/MediaFiles/MediaFile
+              </MediaFile>
+            </MediaFiles>
+            <Attempt>
+              inline_Attempt
+            </Attempt>
+          </Linear>
+        </Creative>
+        <Creative>
+          <NonLinearAds>
+            <NonLinear apiFramework="VPAID" height="60" width="380" id="overlay-1">
+              <StaticResource creativeType="application/x-shockwave-flash">
+                <![CDATA[
+              http://static.test.local/ads/vpaidad3.swf?adData=http%3A//app.test.local/ssframework/adStreamJSController.xml%3Fa%3Dgetadscheduleforcontent%26PI%3D567%26scheduleVersion%3D3%26HI%3D567|overlay|372934318%26AI%3D0
+              ]]>
+              </StaticResource>
+            </NonLinear>
+          </NonLinearAds>
+        </Creative>
+      </Creatives>
+      <Extensions>
+        <Extension type="inline_Extension">
+          <ParamA>inline_Extension/ValueA</ParamA>
+          <ParamB>inline_Extension/ValueB</ParamB>
+          <ParamC>inline_Extension/ValueC</ParamC>
+        </Extension>
+      </Extensions>
+    </InLine>
+  </Ad>
+</VAST>

@@ -1,0 +1,6 @@
+TremorVideo Inline VAST,http://demo.tremorvideo.com/proddev/vast/vast_inline_linear.xml
+TremorVideo VAST wrapper,http://demo.tremorvideo.com/proddev/vast/vast_wrapper_linear_1.xml
+VPAID Flash Brainient Preroll Linear (flash),http://cdn-tags.brainient.com/1228/34f8e4e6-e83c-46da-8bf6-a37ae9ed5134/vast.xml?platform=vpaid&v=v6&proto=http
+VPAID Innovid Ads (js),https://rtr.innovid.com/r1.5554946ab01d97.36996823;cb=%25%CACHEBUSTER%25%25VPAID
+JWPlayer (js no CORS),https://support-static.jwplayer.com/content/advertising/vpaid-2-test.xml
+Innovid,https://rtr.innovid.com/r1.5554946ab01d97.36996823;cb=%25%CACHEBUSTER%25%25

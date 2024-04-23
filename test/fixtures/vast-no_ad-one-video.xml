@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<VAST version="2.0" adVendorName="OneVideo">
+	<Error>	</Error>
+
+	<Extensions>
+		<Extension type="adaptv_error">
+			<Error code="2"><![CDATA[No ad could be found matching this request.]]></Error>
+		</Extension>
+
+<Extension type="one_video_feacons">
+	<Feacons>
+		<Feacon type="prefilled_opportunity"><![CDATA[https://log.adaptv.advertising.com/log?3a=prefilledOpportunity&5=738151&11d=3170334408786971&65=preroll&6a=-2&6b=-2&85=16-Year-Old+Girl+Disappears+While+Shopping+With+Parents+at+California+Walmart+&optout=0&3=-2&5c=aolvideo&2e=www.racingmasters.net%2Fvideo%2F454%2F1894128%2Fvideo-of-the-day%3Fat%3Djpxrsihxrtefvihr39zm99wikhnkfnd7rlpvyhfq5ykdrrsg2pssprbtc%2F7fsja3wqbyqnqz6umk9ice&2f=racingmasters.net&30=racingmasters.net&31=3&32=0&fd=4277275&83=5a1d80224db5ff227b206193&82=104722&80=4666095690917527947&f8=O2d40f2c13-af5e-11e7-9f6a-0242aa0d9604&42=false&8f=400&41=225&21=transId%3D52577421-cadf-4c87-8ff7-d179d001c5b0%2CstudioId%3D551444b709eab105804dc0d8%2Cbcid%3D597a11ae5ab53566cce7501d%2Cpid%3D5a0491124db5ff42c3560b0c%2Cmv%3D-1%2Cssname%3D%2C%2Cfv%3D0.0%2Cfd%3D0.0%2Cfi%3D0.0%2Cfp%3D0.0%2Cfw%3D0.0%2Cfdv%3D0.0%2Cbv%3DBLACK%2Cvp%3D1%2Cat%3D1%2Cs%3D1%2Csd%3D10%2Css%3D&1b=us%2Bnews&77=712032311&67={playerRev}&d6=4af9ce45-94f7-481c-a030-9495cf3442b9&bf=0&74=ah&d5=1&d8=ip-10-99-102-185&8e=<a.viewable>&f0=-1&161=96.00&68=2&ctx.plid=5a0491124db5ff42c3560b0c&ctx.container_height=225&ctx.container_width=400&d7=O2&c4=0&91=ONLINE_VIDEO&45=72.47.124.61&ee=Windows+10&b5=<a.active>&143=1&144=0&145=-1&146=100&147=10&148=1&14b=93.4387&14c=97.3459&152=82.3818&153=89.9809&115=3&120=0&100={adSeq}&112=1&134=69&33=91786347&a.cv=1]]></Feacon>
+	</Feacons>
+</Extension>
+	</Extensions>
+</VAST>

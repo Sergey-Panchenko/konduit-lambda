@@ -1,0 +1,106 @@
+
+<VAST version="3.0">
+<Ad id="1i0kim">
+<InLine>
+<AdSystem>Innovid Ads</AdSystem>
+<AdTitle>
+<![CDATA[
+K83025_MY18_NAT_Hybrid_15s_AlwaysReady_PreRoll_Innovid
+]]>
+</AdTitle>
+<Impression>
+<![CDATA[
+http://s.innovid.com/1x1.gif?project_hash=1hmonl&client_id=836&video_id=207533&channel_id=543673&publisher_id=92&placement_tag_id=0&project_state=2&r=1501683526477&placement_hash=1i0kim&device_id=&action=init
+]]>
+</Impression>
+<Impression>
+<![CDATA[
+http://dts.innovid.com/placement/1i0kim/uuid?cb=fe99b4d6-8af9-25b4-7059-731ebfa5e4ce
+]]>
+</Impression>
+<Creatives>
+<Creative>
+<Linear>
+<Duration>00:00:15</Duration>
+<TrackingEvents>
+<Tracking event="start">
+<![CDATA[
+http://s.innovid.com/1x1.gif?project_hash=1hmonl&client_id=836&video_id=207533&channel_id=543673&publisher_id=92&placement_tag_id=0&project_state=2&r=1501683526477&placement_hash=1i0kim&device_id=&action=play
+]]>
+</Tracking>
+<Tracking event="start">
+<![CDATA[
+https://stags.bluekai.com/site/45284?limit=1&phint=event%3Dimp&phint=cid%3D35055&phint=vid%3D92&phint=crid%3D207533&phint=pid%3D559127
+]]>
+</Tracking>
+<Tracking event="start">
+<![CDATA[
+https://ad.doubleclick.net/ddm/trackimp/N3753.158532ABC/B10118856.201312246;dc_trk_aid=323703448;dc_trk_cid=67745698;ord=1501683526477;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?
+]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[
+http://s.innovid.com/1x1.gif?project_hash=1hmonl&client_id=836&video_id=207533&channel_id=543673&publisher_id=92&placement_tag_id=0&project_state=2&r=1501683526477&placement_hash=1i0kim&device_id=&action=vpoint&event_id=percent&event_value=25
+]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[
+http://s.innovid.com/1x1.gif?project_hash=1hmonl&client_id=836&video_id=207533&channel_id=543673&publisher_id=92&placement_tag_id=0&project_state=2&r=1501683526477&placement_hash=1i0kim&device_id=&action=vpoint&event_id=percent&event_value=50
+]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[
+http://s.innovid.com/1x1.gif?project_hash=1hmonl&client_id=836&video_id=207533&channel_id=543673&publisher_id=92&placement_tag_id=0&project_state=2&r=1501683526477&placement_hash=1i0kim&device_id=&action=vpoint&event_id=percent&event_value=75
+]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[
+http://s.innovid.com/1x1.gif?project_hash=1hmonl&client_id=836&video_id=207533&channel_id=543673&publisher_id=92&placement_tag_id=0&project_state=2&r=1501683526477&placement_hash=1i0kim&device_id=&action=vpoint&event_id=percent&event_value=100
+]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[
+https://stags.bluekai.com/site/45284?limit=1&phint=event%3Dvideocomplete&phint=cid%3D35055&phint=vid%3D92&phint=crid%3D207533&phint=pid%3D559127
+]]>
+</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[
+http://service.innovid.com/vclk/index.php?project_hash=1hmonl&client_id=836&video_id=207533&channel_id=543673&publisher_id=92&placement_tag_id=0&project_state=2&r=1501683526477&placement_hash=1i0kim&device_id=&action=clktru&click=https%3A%2F%2Fad.doubleclick.net%2Fddm%2Ftrackclk%2FN3753.158532ABC%2FB10118856.201312246%3Bdc_trk_aid%3D323703448%3Bdc_trk_cid%3D67745698%3Bdc_lat%3D%3Bdc_rdid%3D%3Btag_for_child_directed_treatment%3D
+]]>
+</ClickThrough>
+<ClickTracking>
+<![CDATA[
+https://stags.bluekai.com/site/45284?limit=1&phint=event%3Dclick&phint=cid%3D35055&phint=vid%3D92&phint=crid%3D207533&phint=pid%3D559127
+]]>
+</ClickTracking>
+</VideoClicks>
+<MediaFiles>
+<MediaFile delivery="progressive" width="1920" height="1080" type="video/quicktime" bitrate="17625">
+<![CDATA[
+http://static.innovid.com/assets/35055/110679/source_35055_110679.mov
+]]>
+</MediaFile>
+<MediaFile delivery="progressive" width="1280" height="720" type="video/mp4" bitrate="2000">
+<![CDATA[
+http://static.innovid.com/media/encoded/06_17/77511/11_source_35055_110679.mp4
+]]>
+</MediaFile>
+<MediaFile delivery="progressive" width="1920" height="1080" type="video/mp4" bitrate="4000">
+<![CDATA[
+http://static.innovid.com/media/encoded/06_17/77511/13_source_35055_110679.mp4
+]]>
+</MediaFile>
+<MediaFile delivery="progressive" width="1920" height="1080" type="video/mp4" bitrate="20000">
+<![CDATA[
+http://static.innovid.com/media/encoded/06_17/77511/19_source_35055_110679.mp4
+]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>

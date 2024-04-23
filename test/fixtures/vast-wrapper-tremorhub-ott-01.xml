@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<VAST version="2.0">
+  <Ad id="2a32f7e9-e164-41f0-acee-268ea16ec8c4">
+    <Wrapper>
+      <AdSystem>ExtendTV</AdSystem>
+      <VASTAdTagURI>
+        <![CDATA[http://adserver-east.extend.tv/video/?entity=18&order=1808366&version=2.0&b=2a32f7e9-e164-41f0-acee-268ea16ec8c4&p=22.51]]></VASTAdTagURI>
+      <Error>
+        <![CDATA[http://events.tremorhub.com/diag?rid=c6aff4b3b1f44bd7921a02568e74b899&adid=1&gdpr=false&gdprc=false&req_ts=1548939574160&pbid=967&seatid=60478&aid=952169&asid=30952&lid=487&pm=7002&rtype=VAST_ERR&vastError=[ERRORCODE]&sec=false&adcode=rahfc-4i7ct&brid=342888&sid=347938&dseatid=61136&nid=268&adom=chw.org&crid=1954759&aid=952169&rseat=ExtendTV]]></Error>
+      <Impression>
+        <![CDATA[https://s.pixsrvcs.com/2/878596/analytics.js?dt=8785961524678691210000&pp=dvsz4&si=rahfc-5nvui&sr=rahfc&pc=rahfc-4i7ct&ap=com.roku.letsplayroblox&gt=US&to=3&pv=0e78072b-2558-11e9-b334-0a59842a1528]]></Impression>
+      <Impression>
+        <![CDATA[https://adrta.com/i?clid=tv&paid=tv&dvid=v&avid=zypmedia&caid=30952&plid=1954759&pricePaid=&priceBid=&siteId=rahfc-5nvui&publisherId=dvsz4_BoldScreen&kv1=1920x1080&kv2=&kv3=&kv4=99.72.98.200&kv7=60478&kv11=c6aff4b3b1f44bd7921a02568e74b899&kv12=rahfc-4i7ct&kv16=&kv17=&kv18=com.roku.letsplayroblox&kv19=53b2833f-57a8-9112-f7ac-2b9391b94ceb&kv23=&kv24=MTAG&kv27=RokuDVP-8.0+%28028.00E04128A%29]]></Impression>
+      <Impression>
+        <![CDATA[http://sb.scorecardresearch.com/p?c1=2&c2=26206112&ns_ap_sv=2.1511.10&ns_type=hidden&ns_st_it=a&ns_st_sv=4.0.0&ns_st_ad=1&ns_st_sq=1&ns_st_id=c6aff4b3b1f44bd7921a02568e74b899&ns_st_ec=1&ns_st_cn=1&ns_st_ev=play&ns_st_ct=va&ns_st_cl=0&ns_st_pt=0&c3=%2Anull&c4=%2Anull&c6=%2Anull&ns_ts=]]></Impression>
+      <Impression>
+        <![CDATA[http://events.tremorhub.com/evt?rid=c6aff4b3b1f44bd7921a02568e74b899&adid=1&gdpr=false&gdprc=false&req_ts=1548939574160&pbid=967&seatid=60478&aid=952169&asid=30952&lid=487&pm=7002&evt=IMP&tvssa=false]]></Impression>
+      <Impression id="0">
+        <![CDATA[http://Telariaeventsbidder-east.extend.tv?id=2a32f7e9-e164-41f0-acee-268ea16ec8c4&wi=22.51]]></Impression>
+      <Creatives>
+        <Creative>
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="start">
+                <![CDATA[http://events.tremorhub.com/evt?rid=c6aff4b3b1f44bd7921a02568e74b899&adid=1&gdpr=false&gdprc=false&req_ts=1548939574160&pbid=967&seatid=60478&aid=952169&asid=30952&lid=487&pm=7002&evt=start&vastcrtype=linear&crid=]]></Tracking>
+              <Tracking event="firstQuartile">
+                <![CDATA[http://events.tremorhub.com/evt?rid=c6aff4b3b1f44bd7921a02568e74b899&adid=1&gdpr=false&gdprc=false&req_ts=1548939574160&pbid=967&seatid=60478&aid=952169&asid=30952&lid=487&pm=7002&evt=firstQuartile&vastcrtype=linear&crid=]]></Tracking>
+              <Tracking event="midpoint">
+                <![CDATA[http://events.tremorhub.com/evt?rid=c6aff4b3b1f44bd7921a02568e74b899&adid=1&gdpr=false&gdprc=false&req_ts=1548939574160&pbid=967&seatid=60478&aid=952169&asid=30952&lid=487&pm=7002&evt=midpoint&vastcrtype=linear&crid=]]></Tracking>
+              <Tracking event="thirdQuartile">
+                <![CDATA[http://events.tremorhub.com/evt?rid=c6aff4b3b1f44bd7921a02568e74b899&adid=1&gdpr=false&gdprc=false&req_ts=1548939574160&pbid=967&seatid=60478&aid=952169&asid=30952&lid=487&pm=7002&evt=thirdQuartile&vastcrtype=linear&crid=]]></Tracking>
+              <Tracking event="complete">
+                <![CDATA[http://events.tremorhub.com/evt?rid=c6aff4b3b1f44bd7921a02568e74b899&adid=1&gdpr=false&gdprc=false&req_ts=1548939574160&pbid=967&seatid=60478&aid=952169&asid=30952&lid=487&pm=7002&evt=complete&vastcrtype=linear&crid=]]></Tracking>
+              <Tracking event="complete">
+                <![CDATA[http://sb.scorecardresearch.com/p?c1=2&c2=26206112&ns_ap_sv=2.1511.10&ns_type=hidden&ns_st_it=a&ns_st_sv=4.0.0&ns_st_ad=1&ns_st_sq=1&ns_st_id=c6aff4b3b1f44bd7921a02568e74b899&ns_st_ec=2&ns_st_cn=1&ns_st_ev=end&ns_st_ct=va&ns_st_cl=0&ns_st_pt=0&c3=%2Anull&c4=%2Anull&c6=%2Anull&ns_ts=]]></Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickTracking id="TV">
+                <![CDATA[http://events.tremorhub.com/evt?rid=c6aff4b3b1f44bd7921a02568e74b899&adid=1&gdpr=false&gdprc=false&req_ts=1548939574160&pbid=967&seatid=60478&aid=952169&asid=30952&lid=487&pm=7002&evt=click&vastcrtype=linear&crid=]]></ClickTracking>
+              <ClickTracking id="pixalateClk">
+                <![CDATA[https://adrta.com/c?clid=tv&paid=tv&dvid=v&avid=zypmedia&caid=30952&plid=1954759&pricePaid=&priceBid=&siteId=rahfc-5nvui&publisherId=dvsz4_BoldScreen&kv1=1920x1080&kv2=&kv3=&kv4=99.72.98.200&kv7=60478&kv11=c6aff4b3b1f44bd7921a02568e74b899&kv12=rahfc-4i7ct&kv16=&kv17=&kv18=com.roku.letsplayroblox&kv19=53b2833f-57a8-9112-f7ac-2b9391b94ceb&kv23=&kv24=MTAG&kv27=RokuDVP-8.0+%28028.00E04128A%29&vastcrtype=linear&crid=]]></ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+      <Extensions>
+        <Pricing currency="USD" model="CPM"><![CDATA[15.757]]></Pricing>
+      </Extensions>
+    </Wrapper>
+  </Ad>
+</VAST>
